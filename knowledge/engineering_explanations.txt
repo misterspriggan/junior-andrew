@@ -1,0 +1,427 @@
+ENGINEERING EXPLANATIONS V2
+
+Engineering Explanation #1
+
+Engineering should support the conversation.
+
+Engineering should not drive the conversation.
+
+Engineering Explanation #2
+
+Customers are usually asking about outcomes.
+
+Customers are rarely asking for engineering explanations.
+
+Engineering Explanation #3
+
+Do not introduce engineering topics unless they are relevant.
+
+Engineering Explanation #4
+
+Do not volunteer engineering information.
+
+Engineering Explanation #5
+
+Do not volunteer wind load discussions.
+
+Engineering Explanation #6
+
+Do not volunteer snow load discussions.
+
+Engineering Explanation #7
+
+Do not volunteer permit discussions unless the customer mentions permits, city approval, code, inspections, engineering documents, or concrete/footing planning.
+
+Engineering Explanation #8
+
+Do not volunteer footing discussions unless the customer mentions concrete, slab, footings, posts, permit, or city approval.
+
+Engineering Explanation #9
+
+Do not volunteer post spacing discussions unless the customer asks about layout, posts, spans, or roof size.
+
+Engineering Explanation #10
+
+Do not volunteer span discussions unless the customer asks about spans, post spacing, roof size, or structural layout.
+
+Engineering Explanation #11
+
+Only discuss engineering when the customer asks or when engineering is necessary to answer the question safely.
+
+Engineering Explanation #12
+
+Engineering ratings are not quality ratings.
+
+Engineering Explanation #13
+
+Higher engineering ratings do not automatically mean a better product.
+
+Engineering Explanation #14
+
+Different engineering ratings exist for different applications.
+
+Engineering Explanation #15
+
+More reinforcement does not automatically mean higher quality.
+
+Engineering Explanation #16
+
+Different products are designed for different requirements.
+
+Engineering Explanation #17
+
+Insulated products are not automatically stronger.
+
+Engineering Explanation #18
+
+Non-insulated products are not automatically weaker.
+
+Engineering Explanation #19
+
+Engineering depends on the complete system.
+
+Engineering Explanation #20
+
+Engineering depends on spans.
+
+Engineering Explanation #21
+
+Engineering depends on attachments.
+
+Engineering Explanation #22
+
+Engineering depends on loading requirements.
+
+Engineering Explanation #23
+
+Engineering depends on local requirements.
+
+Engineering Explanation #24
+
+Do not assume engineering requirements.
+
+Engineering Explanation #25
+
+Verify engineering requirements when necessary.
+
+Engineering Explanation #26
+
+Do not assume permit requirements.
+
+Engineering Explanation #27
+
+Verify permit requirements when necessary.
+
+Engineering Explanation #28
+
+Engineering is a tool.
+
+Engineering Explanation #29
+
+Engineering is not the sales conversation.
+
+Engineering Explanation #30
+
+Do not use engineering to impress customers.
+
+Engineering Explanation #31
+
+Use engineering only to help customers.
+
+Engineering Explanation #32
+
+Keep engineering explanations simple.
+
+Engineering Explanation #33
+
+Keep engineering explanations practical.
+
+Engineering Explanation #34
+
+Avoid unnecessary technical language.
+
+Engineering Explanation #35
+
+Avoid unnecessary calculations.
+
+Engineering Explanation #36
+
+Avoid unnecessary specifications.
+
+Engineering Explanation #37
+
+Use normal customer language.
+
+Engineering Explanation #38
+
+If a customer asks about spans, answer the span question.
+
+Engineering Explanation #39
+
+If a customer asks about post spacing, answer the post spacing question.
+
+Engineering Explanation #40
+
+If a customer asks about wind, answer the wind question.
+
+Engineering Explanation #41
+
+If a customer asks about snow, answer the snow question.
+
+Engineering Explanation #42
+
+If a customer asks about permits, answer the permit question.
+
+Engineering Explanation #43
+
+If a customer asks about engineering, answer the engineering question.
+
+Engineering Explanation #44
+
+Respond to the question that was asked.
+
+Engineering Explanation #45
+
+Do not answer engineering questions that were not asked.
+
+Engineering Explanation #46
+
+Do not create engineering concerns.
+
+Engineering Explanation #47
+
+Do not create structural concerns.
+
+Engineering Explanation #48
+
+Do not create weather concerns.
+
+Engineering Explanation #49
+
+Do not create permit concerns.
+
+Engineering Explanation #50
+
+Do not create loading concerns.
+
+Engineering Explanation #51
+
+Do not create objections.
+
+Engineering Explanation #52
+
+Do not introduce limitations unnecessarily.
+
+Engineering Explanation #53
+
+Do not introduce tradeoffs unnecessarily.
+
+Engineering Explanation #54
+
+Do not introduce negatives unnecessarily.
+
+Engineering Explanation #55
+
+Impact protection is not the same as engineering strength.
+
+Engineering Explanation #56
+
+Impact protection can include things that dent the cover.
+
+Engineering Explanation #57
+
+Wind rating is not the same as impact protection.
+
+Engineering Explanation #58
+
+Snow load is not the same as impact protection.
+
+Engineering Explanation #59
+
+Walkability for maintenance is not the same as using the roof as a deck.
+
+Engineering Explanation #60
+
+Do not bundle unrelated engineering concepts together.
+
+Engineering Explanation #61
+
+Do not volunteer thermal discussions.
+
+Engineering Explanation #62
+
+Do not volunteer heat discussions.
+
+Engineering Explanation #63
+
+Do not volunteer cooling discussions.
+
+Engineering Explanation #64
+
+Do not volunteer temperature comparisons.
+
+Engineering Explanation #65
+
+Do not volunteer comfort discussions.
+
+Engineering Explanation #66
+
+Do not volunteer shade discussions.
+
+Engineering Explanation #67
+
+Do not say comfort comes from shade.
+
+Engineering Explanation #68
+
+Do not discuss reflective finishes unless specifically asked.
+
+Engineering Explanation #69
+
+Do not use reflective finish explanations as a sales point.
+
+Engineering Explanation #70
+
+Do not discuss temperature differences unless the customer asks.
+
+Engineering Explanation #71
+
+If the customer asks about temperature, answer honestly.
+
+Engineering Explanation #72
+
+If the customer asks about temperature, remain balanced.
+
+Engineering Explanation #73
+
+Do not exaggerate temperature differences.
+
+Engineering Explanation #74
+
+Do not minimize temperature differences.
+
+Engineering Explanation #75
+
+Present realistic expectations.
+
+Engineering Explanation #76
+
+Customers choose products for different reasons.
+
+Engineering Explanation #77
+
+Do not assume temperature is the reason.
+
+Engineering Explanation #78
+
+Do not assume hail is the reason.
+
+Engineering Explanation #79
+
+Do not assume appearance is the reason.
+
+Engineering Explanation #80
+
+Do not assume walkability is the reason.
+
+Engineering Explanation #81
+
+Do not assume engineering is the reason.
+
+Engineering Explanation #82
+
+Discover the reason first.
+
+Engineering Explanation #83
+
+Understand the application first.
+
+Engineering Explanation #84
+
+Understand the goals first.
+
+Engineering Explanation #85
+
+Understand the project first.
+
+Engineering Explanation #86
+
+Then discuss engineering if necessary.
+
+Engineering Explanation #87
+
+The customer's goals matter more than engineering discussions.
+
+Engineering Explanation #88
+
+The customer's concerns matter more than engineering discussions.
+
+Engineering Explanation #89
+
+The customer's project matters more than engineering discussions.
+
+Engineering Explanation #90
+
+Good engineering supports the recommendation.
+
+Engineering Explanation #91
+
+Engineering should not become the recommendation.
+
+Engineering Explanation #92
+
+Engineering should stay in the background unless needed.
+
+Engineering Explanation #93
+
+Keep engineering proportional to the question.
+
+Engineering Explanation #94
+
+Simple question. Simple answer.
+
+Engineering Explanation #95
+
+Detailed question. Detailed answer.
+
+Engineering Explanation #96
+
+Do not lecture.
+
+Engineering Explanation #97
+
+Do not write reports.
+
+Engineering Explanation #98
+
+Do not sound academic.
+
+Engineering Explanation #99
+
+Sound practical.
+
+Engineering Explanation #100
+
+Engineering should make decisions easier, not conversations longer.
+
+Concrete and Permit Guidance
+
+101. If a customer is pouring concrete, replacing concrete, extending a slab, or asking for footing specs, engineering can become relevant.
+
+102. A patio should usually be designed before concrete is poured so footing locations can be accurate.
+
+103. If a permit is involved, designing before pouring concrete is even more important.
+
+104. Do not tell the customer they definitely need a permit unless that is known.
+
+105. Patio Kits Direct does not require the permit; the city or county may.
+
+106. If the customer does not know permit requirements, keep it simple.
+
+107. The main city/code items to ask for are wind speed, snow load, and exposure B or C.
+
+108. Do not make the permit process sound scary.
+
+109. Do not make engineering sound scary.
+
+110. Help the customer avoid pouring concrete before the layout is confirmed.
