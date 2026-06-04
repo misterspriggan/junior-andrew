@@ -66,6 +66,8 @@ def load_knowledge() -> str:
 def clean_visible_text(text: str) -> str:
     cleaned = text.strip()
 
+    # Keep Lanai/Lanais visible text consistent.
+    # Do NOT use pronunciation spellings in visible text.
     cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanais", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bhaven\s+lanai\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\blanais\b", "Lanais", cleaned, flags=re.IGNORECASE)
@@ -82,20 +84,17 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
-    # Voice pronunciation helper.
-    # Full brand phrase worked best as "Haven la nai."
-    # Standalone Lanai/Lanais is replaced with "the enclosure" in audio only,
-    # because ElevenLabs was inconsistently saying "L anai."
-    spoken = re.sub(r"\bHaven Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanais\b", "the enclosures", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanai\b", "the enclosure", spoken, flags=re.IGNORECASE)
+    # IMPORTANT:
+    # No Lanai pronunciation hack here.
+    # Capitalized "Haven Lanai" sounded best, so we let ElevenLabs read it naturally.
 
     # Company pronunciation helper.
+    # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
     spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
+    # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
     spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
 
     # Make common units sound natural.
@@ -105,6 +104,7 @@ def make_spoken_version(text: str) -> str:
     spoken = re.sub(r"\b1\s*feet\b", "1 foot", spoken, flags=re.IGNORECASE)
 
     # Make feet/inch marks sound natural.
+    # Example: 22'4" -> 22 feet 4 inches
     spoken = re.sub(r"\b(\d+)'\s*(\d+)\"", r"\1 feet \2 inches", spoken)
     spoken = re.sub(r"\b(\d+)'\b", r"\1 feet", spoken)
     spoken = re.sub(r"\b(\d+)\"", r"\1 inches", spoken)
@@ -219,7 +219,6 @@ Always write the product name visibly as "Haven Lanai" or "Haven Lanais."
 Always capitalize Lanai and Lanais.
 Never write lowercase "lanai" or "lanais" in customer-facing text.
 Never visibly write "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
-Pronunciation helpers are only for hidden spoken audio, not visible text.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
 Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
