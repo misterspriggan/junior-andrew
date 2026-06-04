@@ -66,6 +66,10 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
+    # Make dimensions sound natural.
+    # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
+    spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
+
     # Make the voice read with more natural pauses.
     spoken = re.sub(r"\. ", ".\n\n", spoken)
     spoken = re.sub(r"\? ", "?\n\n", spoken)
