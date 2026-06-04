@@ -47,6 +47,7 @@ KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "website_navigation_reference.txt",
     BASE_DIR / "knowledge" / "website_product_deep_reference.txt",
     BASE_DIR / "knowledge" / "engineering_packet_reference.txt",
+    BASE_DIR / "knowledge" / "quote_payment_order_reference.txt",
 ]
 
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")
