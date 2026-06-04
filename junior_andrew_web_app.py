@@ -73,16 +73,17 @@ def make_spoken_version(text: str) -> str:
 
     # ElevenLabs pronunciation helper.
     # Visible text still says Lanai/Lanais, but spoken audio uses "la nai"
-    # because this tested closest and most consistently.
-    spoken = re.sub(r"\bhaven lanais\b", "Haven la nais", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bhaven lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\blanais\b", "la nais", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\blanai\b", "la nai", spoken, flags=re.IGNORECASE)
+    # because "A Haven la nai is Patio Kits Direct's fully enclosed option."
+    # tested as the best pronunciation.
+    spoken = re.sub(r"\bHaven Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanais\b", "la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanai\b", "la nai", spoken, flags=re.IGNORECASE)
 
     # Company pronunciation helper.
     # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
-    spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
     # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
