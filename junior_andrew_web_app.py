@@ -71,11 +71,13 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
-    # Keep Lanai/Lanais capitalized because ElevenLabs pronounces it better that way.
-    # Do not use phonetic spellings like "la nigh" because they can sound unnatural.
-    spoken = re.sub(r"\bhaven lanais\b", "Haven Lanais", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\blanais\b", "Lanais", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\blanai\b", "Lanai", spoken, flags=re.IGNORECASE)
+    # ElevenLabs pronunciation helper.
+    # Visible text still says Lanai/Lanais, but spoken audio uses "la nai"
+    # because this tested closest and most consistently.
+    spoken = re.sub(r"\bhaven lanais\b", "Haven la nais", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bhaven lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\blanais\b", "la nais", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\blanai\b", "la nai", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
     # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
