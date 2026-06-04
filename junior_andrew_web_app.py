@@ -59,19 +59,19 @@ def load_knowledge() -> str:
 
 
 def make_spoken_version(text: str) -> str:
-    """
-    Make the written reply a little more voice-friendly.
-    This helps cadence without changing the visible text.
-    """
     spoken = text.strip()
 
-    spoken = spoken.replace("Patio Kits Direct", "Patio Kits Direct")
-    spoken = spoken.replace("(888) 851-8351", "eight eight eight, eight five one, eight three five one")
+    spoken = spoken.replace(
+        "(888) 851-8351",
+        "eight eight eight, eight five one, eight three five one",
+    )
 
-    # Add light pauses after sentence endings.
+    # Make the voice read with more natural pauses.
     spoken = re.sub(r"\. ", ".\n\n", spoken)
     spoken = re.sub(r"\? ", "?\n\n", spoken)
     spoken = re.sub(r"! ", "!\n\n", spoken)
+    spoken = spoken.replace(" — ", ". ")
+    spoken = spoken.replace(" - ", ". ")
 
     return spoken
 
@@ -174,12 +174,18 @@ Knowledge:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+if "audio_cache" not in st.session_state:
+    st.session_state.audio_cache = {}
+
 with st.sidebar:
     st.header("Controls")
 
     if st.button("Clear chat"):
         st.session_state.messages = []
+        st.session_state.audio_cache = {}
         st.rerun()
+
+    auto_voice = st.checkbox("Auto-play voice", value=True)
 
     st.write("Model: `gpt-5.5`")
     st.write("Knowledge files loaded:")
@@ -209,16 +215,18 @@ for index, msg in enumerate(st.session_state.messages):
         st.markdown(msg["content"])
 
         if msg["role"] == "assistant":
-            button_key = f"voice_{index}"
+            if index in st.session_state.audio_cache:
+                st.audio(st.session_state.audio_cache[index], format="audio/mp3")
 
-            if st.button("🔊 Play Voice", key=button_key):
+            if st.button("🔊 Play Voice", key=f"voice_{index}"):
                 if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
-                    st.warning("Voice is not configured yet. Add ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID in Streamlit Secrets after the voice finishes training.")
+                    st.warning("Voice is not configured yet.")
                 else:
                     with st.spinner("Generating voice..."):
                         try:
                             audio_bytes = generate_voice_audio(msg["content"])
-                            st.audio(audio_bytes, format="audio/mp3")
+                            st.session_state.audio_cache[index] = audio_bytes
+                            st.audio(audio_bytes, format="audio/mp3", autoplay=True)
                         except Exception as e:
                             st.error(str(e))
 
@@ -242,17 +250,32 @@ if user_message:
 
         st.markdown(assistant_message)
 
-        if st.button("🔊 Play Voice", key=f"voice_new_{len(st.session_state.messages)}"):
+        st.session_state.messages.append(
+            {"role": "assistant", "content": assistant_message}
+        )
+
+        assistant_index = len(st.session_state.messages) - 1
+
+        if auto_voice and ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID:
+            with st.spinner("Generating voice..."):
+                try:
+                    audio_bytes = generate_voice_audio(assistant_message)
+                    st.session_state.audio_cache[assistant_index] = audio_bytes
+                    st.audio(audio_bytes, format="audio/mp3", autoplay=True)
+                except Exception as e:
+                    st.error(str(e))
+
+        elif not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
+            st.warning("Voice is not configured yet.")
+
+        if st.button("🔊 Play Voice", key=f"voice_new_{assistant_index}"):
             if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
-                st.warning("Voice is not configured yet. Add ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID in Streamlit Secrets after the voice finishes training.")
+                st.warning("Voice is not configured yet.")
             else:
                 with st.spinner("Generating voice..."):
                     try:
                         audio_bytes = generate_voice_audio(assistant_message)
-                        st.audio(audio_bytes, format="audio/mp3")
+                        st.session_state.audio_cache[assistant_index] = audio_bytes
+                        st.audio(audio_bytes, format="audio/mp3", autoplay=True)
                     except Exception as e:
                         st.error(str(e))
-
-    st.session_state.messages.append(
-        {"role": "assistant", "content": assistant_message}
-    )
