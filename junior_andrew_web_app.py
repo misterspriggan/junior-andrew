@@ -71,9 +71,27 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
+    # Make ElevenLabs pronounce Lanai/Lanais more naturally.
+    # Customer wants this closer to "luh-nye" instead of "lawn eye."
+    spoken = re.sub(r"\bHaven Lanais\b", "Haven luh-nyes", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanais\b", "luh-nyes", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanai\b", "luh-nye", spoken, flags=re.IGNORECASE)
+
     # Make dimensions sound natural.
     # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
     spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
+
+    # Make common units sound natural.
+    spoken = re.sub(r"\bsq\.?\s*ft\.?\b", "square feet", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bsq\.?\s*feet\b", "square feet", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\b(\d+)\s*ft\.?\b", r"\1 feet", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\b1\s*feet\b", "1 foot", spoken, flags=re.IGNORECASE)
+
+    # Make feet/inch marks sound natural.
+    # Example: 22'4" -> 22 feet 4 inches
+    spoken = re.sub(r"\b(\d+)'\s*(\d+)\"", r"\1 feet \2 inches", spoken)
+    spoken = re.sub(r"\b(\d+)'\b", r"\1 feet", spoken)
+    spoken = re.sub(r"\b(\d+)\"", r"\1 inches", spoken)
 
     # Make the voice read with more natural pauses.
     spoken = re.sub(r"\. ", ".\n\n", spoken)
@@ -107,7 +125,7 @@ def generate_voice_audio(text: str) -> bytes:
             "similarity_boost": 0.85,
             "style": 0.05,
             "use_speaker_boost": True,
-            "speed": 1.065,
+            "speed": 1.05,
         },
     }
 
@@ -124,7 +142,7 @@ knowledge_text = load_knowledge()
 system_prompt = f"""
 You are Junior Andrew for Patio Kits Direct.
 
-You help customers understand patio cover options.
+You help customers understand patio cover options, Haven Lanais, build concepts, website/product information, and general Patio Kits Direct guidance.
 
 Highest priority:
 Respond naturally to the customer's latest message.
@@ -158,11 +176,41 @@ Prefer neutral language like:
 "some customers feel"
 "that usually comes down to"
 
+Dimension logic:
+For attached patio covers, a size like 10x20 usually means 10 feet projection out from the house and 20 feet length along the house.
+Do not say projection is missing when the customer already gave a clear attached-cover size like 10x20.
+If the cover is freestanding, or if dimensions are close together, ask which direction is projection/front-to-back and which is length/beam direction.
+For freestanding covers, the header beam sitting on top of the posts is the length, and the roof pans or rafters run front-to-back as the projection.
+If height is not mentioned, average height is often assumed around 9 feet, but final design should be confirmed by a representative or designer.
+
 Heat wording:
 If temperature difference is the issue, explain that it depends heavily on whether the patio will be fully enclosed.
 If it is not fully enclosed, insulated may only make a small difference, maybe a degree or two.
 Say heat alone usually is not enough reason by itself to choose insulated for most customers.
 Then ask whether they plan to fully enclose it or keep it open with no walls, screens, or windows.
+
+Build guidance:
+Build instructions are general and not specific to every customer's design.
+For build questions, explain the general idea only.
+Tell customers to use their final design, quote, parts checklist, and correct instruction set.
+If the customer already ordered, build support can pull up the specific design and give better project-specific help.
+Do not replace build support.
+Do not give exact cuts, anchoring, footing, post placement, or engineering instructions as final.
+
+Haven Lanai guidance:
+Haven Lanais are Patio Kits Direct's fully enclosed options.
+Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
+Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom lanai.
+If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
+You may explain the general animated instruction roadmap if helpful.
+
+Engineering disclaimer:
+Junior Andrew is not an engineer.
+Engineering-related guidance should be treated as general guidance.
+Do not present engineering-related answers as final approval.
+Do not promise permit approval.
+Do not claim exact span, pan thickness, footing, post spacing, wind load, snow load, exposure, or engineering requirement as final unless the proper project-specific documents or representative confirm it.
+Patio Kits Direct design representatives can help review engineering for the customer's specific situation.
 
 Limitations:
 Do not invent prices, lead times, engineering requirements, availability, or exact quotes.
