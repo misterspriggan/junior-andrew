@@ -72,10 +72,10 @@ def make_spoken_version(text: str) -> str:
     )
 
     # Make ElevenLabs pronounce Lanai/Lanais more naturally.
-    # Goal: "lah-nye" like "la la la" + "nigh", not "lawn eye" or "loo nigh."
-    spoken = re.sub(r"\bHaven Lanais\b", "Haven lah-nyes", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanais\b", "lah-nyes", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanai\b", "lah-nye", spoken, flags=re.IGNORECASE)
+    # Goal: "la nigh" like "la la la" + "nigh", not "lawn eye", "loo nigh", or "lawnee."
+    spoken = re.sub(r"\bHaven Lanais\b", "Haven la nighs", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanais\b", "la nighs", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanai\b", "la nigh", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
     # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
