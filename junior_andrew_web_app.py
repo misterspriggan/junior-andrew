@@ -95,6 +95,11 @@ def make_spoken_version(text: str) -> str:
     # Visible text still shows "Haven Lanai."
     spoken = re.sub(r"\bHaven Lanai\b", "Haven l'nai", spoken, flags=re.IGNORECASE)
 
+    # ElevenLabs sometimes pronounces the product name worse if it is the very first sound.
+    # If the audio starts with Haven l'nai, add a small natural warm-up word in audio only.
+    # Visible text is not changed.
+    spoken = re.sub(r"^\s*Haven l'nai\b", "So, Haven l'nai", spoken, flags=re.IGNORECASE)
+
     # Company pronunciation helper.
     # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
     spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
@@ -228,6 +233,7 @@ Always capitalize Haven Lanai.
 Never write lowercase "lanai" or "lanais" in customer-facing text.
 Never visibly write "l'nai", "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
 Pronunciation helpers are only for hidden spoken audio, not visible text.
+When possible, do not start the very first sentence with "Haven Lanai." Start naturally, such as "It is..." or "Basically..." and mention Haven Lanai after a few words.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
 Haven Lanai has its own animated instructions in the 3D Designer for the customer's custom Haven Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
