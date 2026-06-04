@@ -24,6 +24,8 @@ def get_secret(name: str):
 OPENAI_API_KEY = get_secret("OPENAI_API_KEY")
 ELEVENLABS_API_KEY = get_secret("ELEVENLABS_API_KEY")
 ELEVENLABS_VOICE_ID = get_secret("ELEVENLABS_VOICE_ID")
+ELEVENLABS_PRONUNCIATION_DICTIONARY_ID = get_secret("ELEVENLABS_PRONUNCIATION_DICTIONARY_ID")
+ELEVENLABS_PRONUNCIATION_DICTIONARY_VERSION_ID = get_secret("ELEVENLABS_PRONUNCIATION_DICTIONARY_VERSION_ID")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -67,17 +69,16 @@ def clean_visible_text(text: str) -> str:
     cleaned = text.strip()
 
     # Keep product name customer-facing and capitalized.
-    cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanais", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bhaven\s+lanai\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\blanais\b", "Lanais", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\blanai\b", "Lanai", cleaned, flags=re.IGNORECASE)
 
-    # Avoid standalone "lanai" / "Lanai" because the voice can pronounce it poorly.
-    # Make the visible text say the full product name instead.
-    cleaned = re.sub(r"\blanais\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"\blanai\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
-
-    # Clean accidental duplicated product names.
-    cleaned = re.sub(r"\bHaven Haven Lanai\b", "Haven Lanai", cleaned)
-    cleaned = re.sub(r"\bHaven Lanai Haven Lanai\b", "Haven Lanai", cleaned)
+    # Never show pronunciation spellings to customers.
+    cleaned = cleaned.replace("l'nigh", "Lanai")
+    cleaned = cleaned.replace("l'nai", "Lanai")
+    cleaned = cleaned.replace("la nai", "Lanai")
+    cleaned = cleaned.replace("L anai", "Lanai")
 
     return cleaned
 
@@ -90,15 +91,8 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
-    # This is the exact spoken pattern that tested best in ElevenLabs:
-    # "A Haven l'nai is Patio Kits Direct's fully enclosed option."
-    # Visible text still shows "Haven Lanai."
-    spoken = re.sub(r"\bHaven Lanai\b", "Haven l'nai", spoken, flags=re.IGNORECASE)
-
-    # ElevenLabs sometimes pronounces the product name worse if it is the very first sound.
-    # If the audio starts with Haven l'nai, add a small natural warm-up word in audio only.
-    # Visible text is not changed.
-    spoken = re.sub(r"^\s*Haven l'nai\b", "So, Haven l'nai", spoken, flags=re.IGNORECASE)
+    # No Lanai spelling hacks here.
+    # ElevenLabs pronunciation dictionary handles Lanai/Haven Lanai.
 
     # Company pronunciation helper.
     # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
@@ -156,6 +150,14 @@ def generate_voice_audio(text: str) -> bytes:
             "speed": 1.05,
         },
     }
+
+    if ELEVENLABS_PRONUNCIATION_DICTIONARY_ID and ELEVENLABS_PRONUNCIATION_DICTIONARY_VERSION_ID:
+        payload["pronunciation_dictionary_locators"] = [
+            {
+                "pronunciation_dictionary_id": ELEVENLABS_PRONUNCIATION_DICTIONARY_ID,
+                "version_id": ELEVENLABS_PRONUNCIATION_DICTIONARY_VERSION_ID,
+            }
+        ]
 
     response = requests.post(url, headers=headers, json=payload, timeout=60)
 
@@ -226,16 +228,14 @@ Do not replace build support.
 Do not give exact cuts, anchoring, footing, post placement, or engineering instructions as final.
 
 Haven Lanai guidance:
-Haven Lanai is Patio Kits Direct's fully enclosed option.
-Always write the product name visibly as "Haven Lanai."
-Do not write standalone "Lanai" when "Haven Lanai" would fit.
-Always capitalize Haven Lanai.
+Haven Lanais are Patio Kits Direct's fully enclosed options.
+Always write the product name visibly as "Haven Lanai" or "Haven Lanais."
+Always capitalize Lanai and Lanais.
 Never write lowercase "lanai" or "lanais" in customer-facing text.
-Never visibly write "l'nai", "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
-Pronunciation helpers are only for hidden spoken audio, not visible text.
-When possible, do not start the very first sentence with "Haven Lanai." Start naturally, such as "It is..." or "Basically..." and mention Haven Lanai after a few words.
+Never visibly write "l'nigh", "l'nai", "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
+Pronunciation dictionaries are only for hidden spoken audio, not visible text.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
-Haven Lanai has its own animated instructions in the 3D Designer for the customer's custom Haven Lanai.
+Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
 You may explain the general animated instruction roadmap if helpful.
 
@@ -306,6 +306,11 @@ with st.sidebar:
         st.write("Voice: ✅ configured")
     else:
         st.write("Voice: ⏳ not configured yet")
+
+    if ELEVENLABS_PRONUNCIATION_DICTIONARY_ID and ELEVENLABS_PRONUNCIATION_DICTIONARY_VERSION_ID:
+        st.write("Pronunciation dictionary: ✅ loaded")
+    else:
+        st.write("Pronunciation dictionary: ⏳ not configured")
 
 if not OPENAI_API_KEY:
     st.error("OPENAI_API_KEY is missing. Add it as a Streamlit secret or Windows environment variable.")
