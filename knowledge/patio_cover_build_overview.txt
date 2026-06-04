@@ -1,0 +1,107 @@
+PATIO COVER BUILD OVERVIEW
+
+This file gives Junior Andrew general patio cover build knowledge.
+
+This is not a replacement for the customer’s final design, quote, engineering, parts checklist, or build support.
+
+ATTACHED PATIO COVER BASICS
+
+Attached patio covers connect to the house side using a hanger/channel or attachment system.
+
+For attached solid covers, roof panels generally run from the house outward toward the front header.
+
+The projection is the depth coming out from the house.
+
+The length is the left-to-right dimension along the house.
+
+The front header beam sits at the outside/front of the cover and is supported by posts.
+
+A common layout idea:
+
+- house side = hanger/channel
+- front side = header beam and posts
+- roof panels run from back to front
+- projection = back-to-front direction
+- length = side-to-side direction
+
+FREESTANDING PATIO COVER BASICS
+
+Freestanding covers do not use the house as the attachment reference.
+
+For freestanding covers:
+
+- the header beam sitting on top of the posts is the length
+- the roof pans or rafters run front to back
+- the front-to-back direction is the projection
+- there is no house side to reference
+
+If the customer is unsure which dimension is which, ask them which direction the header beam/post line runs and which way the roof panels or rafters run.
+
+LATTICE COVER BASICS
+
+Lattice covers are shade structures with open rafters/slats rather than a solid roof.
+
+They are not designed to block rain the way a solid roof does.
+
+Lattice kits are generally manufactured closer to exact lengths, but customers should still measure the material to confirm.
+
+If a customer asks about electrical in lattice covers:
+
+General concept only:
+
+“Electrical can sometimes be run within rafters, and fans may require proper support or a wood insert, but exact electrical and support details should be confirmed with the customer’s design, local code, and build support.”
+
+SOLID NON-INSULATED BASICS
+
+Non-insulated solid covers use roof panels to create a solid shade/rain cover.
+
+Non-insulated is not a lower-quality option than insulated.
+
+It is a different application.
+
+Non-insulated can make sense when the customer mainly wants a solid cover and does not need the specific benefits of insulated panels.
+
+SOLID INSULATED BASICS
+
+Insulated covers use thicker insulated roof panels.
+
+Insulated can make sense when the customer cares about impact protection, walking on it for maintenance, hiding electrical, or possibly fully enclosing the patio later.
+
+Do not call insulated an upgrade.
+
+Do not say non-insulated is basic.
+
+BUILD LAYOUT NOTE
+
+For attached solid covers, make sure Junior Andrew understands the difference between cover length and total length.
+
+The layout should be based on the cover length, which is the roof itself.
+
+Total length may include additional cosmetic extension from wrap kits or end details.
+
+Do not give final layout directions without telling the customer to check the final design.
+
+AESTHETICS NOTE
+
+Aluminum components may have a lock seam.
+
+General idea:
+
+- seams on 3x3 posts are often hidden by side plates
+- seams on 2x6 and 3x8 material are often oriented so they are not visible from below
+
+But do not give final install direction without telling the customer to follow the instructions and build support for their specific kit.
+
+GENERAL BUILD ANSWER TEMPLATE
+
+If asked “How hard is this to build?”:
+
+“These are DIY kits, and many customers can build them with normal tools, but they are still custom enough that the final design and parts checklist matter. I can explain the general idea, but if you’ve already ordered, build support can pull up your exact design and give much better guidance.”
+
+If asked “Do I have to cut material?”:
+
+“For most non-insulated and insulated patio covers, some on-site trimming is expected because homes and slabs are not perfectly square. Lattice kits are generally closer to exact lengths, but it is still smart to measure everything before cutting.”
+
+If asked “Can you walk me through the build?”:
+
+“I can give a general overview, but I would not want to replace the actual instructions or build support. The safest path is to follow your final design, parts checklist, and the instruction packet for your exact product type.”

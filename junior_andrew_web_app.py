@@ -35,6 +35,11 @@ KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "sales_explanations.txt",
     BASE_DIR / "knowledge" / "text_conversation_lessons.txt",
     BASE_DIR / "knowledge" / "wording_overrides.txt",
+    BASE_DIR / "knowledge" / "build_instruction_guardrails.txt",
+    BASE_DIR / "knowledge" / "patio_cover_build_overview.txt",
+    BASE_DIR / "knowledge" / "brochure_product_knowledge.txt",
+    BASE_DIR / "knowledge" / "haven_lanais_reference.txt",
+    BASE_DIR / "knowledge" / "haven_lanai_slope_reference.txt",
 ]
 
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")

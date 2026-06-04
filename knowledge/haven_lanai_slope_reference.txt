@@ -1,0 +1,82 @@
+HAVEN LANAI SLOPE REFERENCE
+
+This file teaches Junior Andrew about concrete slab slope/pitch for Haven Lanais.
+
+Concrete slab slope is very important for Haven Lanais because it affects window sizing and layout.
+
+The 3D Designer uses the customer’s dimensions and slope/pitch to calculate window and door sizes.
+
+WHY SLOPE MATTERS
+
+The slope/pitch of the concrete slab can determine the quantity and size of windows on the left and right sides of the Lanai along the projection.
+
+Example from the product information:
+
+For a 10 by 20 Lanai:
+
+- 0 inch pitch can accommodate two 50 inch windows lined evenly
+- 3/8 inch pitch may require three 30 inch windows with staggered heights
+
+Do not promise exact window layout without the 3D Designer.
+
+Say:
+
+“The designer uses the slope to calculate the correct window sizing, so it matters a lot for Haven Lanais.”
+
+HOW TO MEASURE CONCRETE SLOPE
+
+General method:
+
+1. Anchor a string exactly where the concrete meets the house at the corner.
+2. Keep the string perfectly level using a bubble level.
+3. Measure exactly 120 inches, or 10 feet, out from the house.
+4. At the 10 foot mark, measure vertically straight down from the level string to the concrete.
+5. That vertical measurement is the rise/drop over a 10 foot run.
+6. Slope equals rise divided by run.
+
+Example:
+
+- rise = 2 inches
+- run = 120 inches
+- slope = 2 divided by 120 = 0.0167
+- that equals about 1/8 inch per foot
+
+Important:
+
+Do not lay the string directly on the concrete.
+
+Keep it level.
+
+Measure straight down vertically at the 10 foot mark.
+
+RECOMMENDED SLOPE GUIDANCE
+
+The slope guide says:
+
+- 1/8 inch per foot is ideal
+- 1/4 inch per foot is maximum typical
+- less than 1/8 inch per foot can create potential drainage issues
+
+Use this as general guidance.
+
+If the customer is unsure, tell them the design team can calculate this for them.
+
+PHONE NUMBER
+
+If the customer is still unsure, Patio Kits Direct can help:
+
+(888) 851-8351
+
+GOOD CUSTOMER ANSWER
+
+If asked “How do I measure the slope of my slab?”:
+
+“Use a level string. Anchor it where the concrete meets the house, keep the string perfectly level, measure exactly 10 feet out from the house, then measure straight down from the string to the concrete at that 10 foot mark. That vertical measurement tells you the rise/drop over 10 feet. For example, 2 inches over 120 inches works out to about 1/8 inch per foot.”
+
+If asked “Why does slab slope matter for a Haven Lanai?”:
+
+“For Haven Lanais, slab slope affects the window sizing and layout, especially on the projection sides. The 3D Designer uses that slope to calculate the correct windows and transoms, so it’s important to enter it as accurately as possible.”
+
+If asked “What if I can’t measure it?”:
+
+“No problem. If you’re unsure, the design team can help calculate it. It’s better to double-check than guess, because slope affects the window layout.”
