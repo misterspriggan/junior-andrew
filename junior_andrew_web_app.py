@@ -63,8 +63,24 @@ def load_knowledge() -> str:
     return "\n".join(parts)
 
 
+def clean_visible_text(text: str) -> str:
+    """
+    Clean customer-visible assistant text before displaying/storing it.
+    This keeps product names consistent and avoids lower-case "lanai"
+    causing weird voice pronunciation later.
+    """
+    cleaned = text.strip()
+
+    cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanais", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bhaven\s+lanai\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\blanais\b", "Lanais", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\blanai\b", "Lanai", cleaned, flags=re.IGNORECASE)
+
+    return cleaned
+
+
 def make_spoken_version(text: str) -> str:
-    spoken = text.strip()
+    spoken = clean_visible_text(text)
 
     spoken = spoken.replace(
         "(888) 851-8351",
@@ -72,18 +88,10 @@ def make_spoken_version(text: str) -> str:
     )
 
     # ElevenLabs pronunciation helper.
-    # Visible text still says Lanai/Lanais, but spoken audio uses "la nai"
-    # because "A Haven la nai is Patio Kits Direct's fully enclosed option."
-    # tested as the best pronunciation.
-    # Also catch accidental visible spacing like "L anai" so the voice does not say "L" + "anai."
-    spoken = re.sub(r"\bHaven\s+L\s+anais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bHaven\s+L\s+anai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bHaven\s+Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bHaven\s+Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bL\s+anais\b", "la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bL\s+anai\b", "la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanais\b", "la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanai\b", "la nai", spoken, flags=re.IGNORECASE)
+    # Only alter the full Haven Lanai / Haven Lanais phrase.
+    # Do NOT replace every standalone Lanai with "la nai" because that can sound like "L anai."
+    spoken = re.sub(r"\bHaven Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
 
     # Company pronunciation helper.
     # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
@@ -213,12 +221,23 @@ Do not give exact cuts, anchoring, footing, post placement, or engineering instr
 Haven Lanai guidance:
 Haven Lanais are Patio Kits Direct's fully enclosed options.
 Always write the product name visibly as "Haven Lanai" or "Haven Lanais."
-Never visibly write "la nai", "L anai", "L-anai", "la-nai", or other pronunciation spellings in customer-facing text.
+Always capitalize Lanai and Lanais.
+Never write lowercase "lanai" or "lanais" in customer-facing text.
+Never visibly write "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
 Pronunciation helpers are only for hidden spoken audio, not visible text.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
 Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
 You may explain the general animated instruction roadmap if helpful.
+
+FlexiGlaze / window material guidance:
+Do not make the Haven Lanai window material sound cheap or flimsy.
+Do not lead with "flexible vinyl" in a way that sounds negative.
+Better framing:
+"The windows have a glass-like look, but they use FlexiGlaze vinyl instead of glass. It was originally designed with golf-course homes and golf ball impacts in mind, so it is a very forgiving material."
+Use the golf-ball / impact context when the customer asks follow-up questions about durability, vinyl, glass, impact, hail, or window material.
+Do not claim the windows are indestructible.
+Do not use anecdotal impact stories as warranty promises.
 
 Engineering disclaimer:
 Junior Andrew is not an engineer.
@@ -319,7 +338,7 @@ if user_message:
                 input=st.session_state.messages,
             )
 
-            assistant_message = response.output_text.strip()
+            assistant_message = clean_visible_text(response.output_text)
 
         st.markdown(assistant_message)
 
