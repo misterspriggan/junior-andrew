@@ -1,20 +1,31 @@
 from pathlib import Path
 import os
+import re
+import requests
 
 import streamlit as st
 from openai import OpenAI
 
 BASE_DIR = Path(__file__).parent
 
-try:
-    openai_api_key = st.secrets.get("OPENAI_API_KEY", None)
-except Exception:
-    openai_api_key = None
 
-if not openai_api_key:
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+def get_secret(name: str):
+    try:
+        value = st.secrets.get(name, None)
+    except Exception:
+        value = None
 
-client = OpenAI(api_key=openai_api_key)
+    if not value:
+        value = os.getenv(name)
+
+    return value
+
+
+OPENAI_API_KEY = get_secret("OPENAI_API_KEY")
+ELEVENLABS_API_KEY = get_secret("ELEVENLABS_API_KEY")
+ELEVENLABS_VOICE_ID = get_secret("ELEVENLABS_VOICE_ID")
+
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "company_facts.txt",
@@ -45,6 +56,58 @@ def load_knowledge() -> str:
             parts.append(f"\n\n--- MISSING FILE: {file.name} ---")
 
     return "\n".join(parts)
+
+
+def make_spoken_version(text: str) -> str:
+    """
+    Make the written reply a little more voice-friendly.
+    This helps cadence without changing the visible text.
+    """
+    spoken = text.strip()
+
+    spoken = spoken.replace("Patio Kits Direct", "Patio Kits Direct")
+    spoken = spoken.replace("(888) 851-8351", "eight eight eight, eight five one, eight three five one")
+
+    # Add light pauses after sentence endings.
+    spoken = re.sub(r"\. ", ".\n\n", spoken)
+    spoken = re.sub(r"\? ", "?\n\n", spoken)
+    spoken = re.sub(r"! ", "!\n\n", spoken)
+
+    return spoken
+
+
+def generate_voice_audio(text: str) -> bytes:
+    if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
+        raise RuntimeError("ElevenLabs voice is not configured yet.")
+
+    spoken_text = make_spoken_version(text)
+
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVENLABS_VOICE_ID}"
+
+    headers = {
+        "xi-api-key": ELEVENLABS_API_KEY,
+        "Content-Type": "application/json",
+        "Accept": "audio/mpeg",
+    }
+
+    payload = {
+        "text": spoken_text,
+        "model_id": "eleven_multilingual_v2",
+        "voice_settings": {
+            "stability": 0.60,
+            "similarity_boost": 0.85,
+            "style": 0.05,
+            "use_speaker_boost": True,
+            "speed": 0.95,
+        },
+    }
+
+    response = requests.post(url, headers=headers, json=payload, timeout=60)
+
+    if response.status_code != 200:
+        raise RuntimeError(f"ElevenLabs error {response.status_code}: {response.text}")
+
+    return response.content
 
 
 knowledge_text = load_knowledge()
@@ -127,18 +190,37 @@ with st.sidebar:
         else:
             st.write("❌ " + file.name)
 
-    if openai_api_key:
-        st.write("API key: ✅ loaded")
+    if OPENAI_API_KEY:
+        st.write("OpenAI key: ✅ loaded")
     else:
-        st.write("API key: ❌ missing")
+        st.write("OpenAI key: ❌ missing")
 
-if not openai_api_key:
+    if ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID:
+        st.write("Voice: ✅ configured")
+    else:
+        st.write("Voice: ⏳ not configured yet")
+
+if not OPENAI_API_KEY:
     st.error("OPENAI_API_KEY is missing. Add it as a Streamlit secret or Windows environment variable.")
     st.stop()
 
-for msg in st.session_state.messages:
+for index, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
+
+        if msg["role"] == "assistant":
+            button_key = f"voice_{index}"
+
+            if st.button("🔊 Play Voice", key=button_key):
+                if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
+                    st.warning("Voice is not configured yet. Add ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID in Streamlit Secrets after the voice finishes training.")
+                else:
+                    with st.spinner("Generating voice..."):
+                        try:
+                            audio_bytes = generate_voice_audio(msg["content"])
+                            st.audio(audio_bytes, format="audio/mp3")
+                        except Exception as e:
+                            st.error(str(e))
 
 user_message = st.chat_input("Type a customer message...")
 
@@ -159,6 +241,17 @@ if user_message:
             assistant_message = response.output_text.strip()
 
         st.markdown(assistant_message)
+
+        if st.button("🔊 Play Voice", key=f"voice_new_{len(st.session_state.messages)}"):
+            if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
+                st.warning("Voice is not configured yet. Add ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID in Streamlit Secrets after the voice finishes training.")
+            else:
+                with st.spinner("Generating voice..."):
+                    try:
+                        audio_bytes = generate_voice_audio(assistant_message)
+                        st.audio(audio_bytes, format="audio/mp3")
+                    except Exception as e:
+                        st.error(str(e))
 
     st.session_state.messages.append(
         {"role": "assistant", "content": assistant_message}
