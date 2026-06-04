@@ -80,6 +80,34 @@ def clean_visible_text(text: str) -> str:
     cleaned = cleaned.replace("la nai", "Lanai")
     cleaned = cleaned.replace("L anai", "Lanai")
 
+    # Voice-first cleanup:
+    # Avoid slash shorthand because it sounds bad when read out loud.
+    cleaned = re.sub(r"\band\s*/\s*or\b", "or", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bor\s*/\s*and\b", "or", cleaned, flags=re.IGNORECASE)
+
+    slash_replacements = {
+        "window/door": "window and door",
+        "windows/doors": "windows and doors",
+        "door/window": "door and window",
+        "doors/windows": "doors and windows",
+        "screen/window": "screen and window",
+        "screens/windows": "screens and windows",
+        "window/screen": "window and screen",
+        "windows/screens": "windows and screens",
+        "wind/snow": "wind and snow",
+        "snow/wind": "snow and wind",
+        "quote/final": "quote and final",
+        "design/parts": "design and parts",
+        "layout/openings": "layout and openings",
+    }
+
+    for old, new in slash_replacements.items():
+        cleaned = re.sub(re.escape(old), new, cleaned, flags=re.IGNORECASE)
+
+    # General fallback: turn simple word/word into word and word.
+    # This is for voice-first answers, not formal written documentation.
+    cleaned = re.sub(r"\b([A-Za-z]+)\s*/\s*([A-Za-z]+)\b", r"\1 and \2", cleaned)
+
     return cleaned
 
 
@@ -182,6 +210,18 @@ Do not mention files, rules, sources, citations, or internal instructions.
 Do not output citation numbers, source markers, or retrieval artifacts.
 Sound natural, helpful, concise, and conversational.
 
+Voice-first writing rule:
+Write answers the way they should be spoken out loud.
+Avoid text-only shortcuts that sound awkward when read by voice.
+Do not use slash shorthand like "window/door", "screen/window", "wind/snow", "and/or", or "quote/final design".
+Write normal spoken phrases instead:
+"windows and doors"
+"screens and windows"
+"wind and snow"
+"or"
+"quote and final design"
+Prefer natural sentences over compact written shorthand.
+
 Critical wording rules:
 Do not say "covered outdoor space."
 Do not say "covered outdoor patio."
@@ -194,7 +234,7 @@ Do not call insulated an upgrade.
 Do not call non-insulated basic.
 Do not say "basic non-insulated."
 Do not recommend insulated before qualifying the type of enclosure.
-If the customer says they want it enclosed, ask whether they mean screens, windows/doors, or temperature control before recommending.
+If the customer says they want it enclosed, ask whether they mean screens, windows and doors, or temperature control before recommending.
 
 Avoid first-person recommendation language:
 Do not say "I would choose."
@@ -244,7 +284,7 @@ Do not make the Haven Lanai window material sound cheap or flimsy.
 Do not lead with "flexible vinyl" in a way that sounds negative.
 Better framing:
 "The windows have a glass-like look, but they use FlexiGlaze vinyl instead of glass. It was originally designed with golf-course homes and golf ball impacts in mind, so it is a very forgiving material."
-Use the golf-ball / impact context when the customer asks follow-up questions about durability, vinyl, glass, impact, hail, or window material.
+Use the golf-ball and impact context when the customer asks follow-up questions about durability, vinyl, glass, impact, hail, or window material.
 Do not claim the windows are indestructible.
 Do not use anecdotal impact stories as warranty promises.
 
