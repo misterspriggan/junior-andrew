@@ -1,4 +1,6 @@
 from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import os
 import re
 import requests
@@ -44,6 +46,7 @@ KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "haven_lanai_slope_reference.txt",
     BASE_DIR / "knowledge" / "website_navigation_reference.txt",
     BASE_DIR / "knowledge" / "website_product_deep_reference.txt",
+    BASE_DIR / "knowledge" / "engineering_packet_reference.txt",
 ]
 
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")
@@ -65,6 +68,29 @@ def load_knowledge() -> str:
             parts.append(f"\n\n--- MISSING FILE: {file.name} ---")
 
     return "\n".join(parts)
+
+
+def get_pacific_time_context() -> str:
+    now = datetime.now(ZoneInfo("America/Los_Angeles"))
+    weekday = now.weekday()
+    hour = now.hour
+    minute = now.minute
+
+    is_weekday = weekday < 5
+    is_open = is_weekday and (8 <= hour < 17)
+
+    open_status = "OPEN" if is_open else "CLOSED"
+
+    return (
+        f"Current Patio Kits Direct reference time: "
+        f"{now.strftime('%A, %B %d, %Y at %-I:%M %p Pacific Time')}.\n"
+        f"Patio Kits Direct normal office hours: Monday through Friday, "
+        f"8:00 AM to 5:00 PM Pacific Time.\n"
+        f"Current office status based on Pacific Time: {open_status}.\n"
+        f"If a customer asks an urgent project-specific engineering, delivery, quote, "
+        f"warranty, order, or build support question while closed, give general guidance only "
+        f"and tell them to confirm with a Patio Kits Direct representative when the office reopens."
+    )
 
 
 def clean_visible_text(text: str) -> str:
@@ -106,8 +132,6 @@ def clean_visible_text(text: str) -> str:
     for old, new in slash_replacements.items():
         cleaned = re.sub(re.escape(old), new, cleaned, flags=re.IGNORECASE)
 
-    # General fallback: turn simple word/word into word and word.
-    # This is for voice-first answers, not formal written documentation.
     cleaned = re.sub(r"\b([A-Za-z]+)\s*/\s*([A-Za-z]+)\b", r"\1 and \2", cleaned)
 
     return cleaned
@@ -125,12 +149,10 @@ def make_spoken_version(text: str) -> str:
     # ElevenLabs pronunciation dictionary handles Lanai/Haven Lanai.
 
     # Company pronunciation helper.
-    # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
     spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
-    # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
     spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
 
     # Make common units sound natural.
@@ -140,12 +162,11 @@ def make_spoken_version(text: str) -> str:
     spoken = re.sub(r"\b1\s*feet\b", "1 foot", spoken, flags=re.IGNORECASE)
 
     # Make feet/inch marks sound natural.
-    # Example: 22'4" -> 22 feet 4 inches
     spoken = re.sub(r"\b(\d+)'\s*(\d+)\"", r"\1 feet \2 inches", spoken)
     spoken = re.sub(r"\b(\d+)'\b", r"\1 feet", spoken)
     spoken = re.sub(r"\b(\d+)\"", r"\1 inches", spoken)
 
-    # Make the voice read with more natural pauses.
+    # Natural pauses.
     spoken = re.sub(r"\. ", ".\n\n", spoken)
     spoken = re.sub(r"\? ", "?\n\n", spoken)
     spoken = re.sub(r"! ", "!\n\n", spoken)
@@ -198,11 +219,15 @@ def generate_voice_audio(text: str) -> bytes:
 
 
 knowledge_text = load_knowledge()
+time_context = get_pacific_time_context()
 
 system_prompt = f"""
 You are Junior Andrew for Patio Kits Direct.
 
-You help customers understand patio cover options, Haven Lanais, build concepts, website/product information, and general Patio Kits Direct guidance.
+You help customers understand patio cover options, Haven Lanais, build concepts, website and product information, and general Patio Kits Direct guidance.
+
+Current time context:
+{time_context}
 
 Highest priority:
 Respond naturally to the customer's latest message.
@@ -223,6 +248,18 @@ Write normal spoken phrases instead:
 "or"
 "quote and final design"
 Prefer natural sentences over compact written shorthand.
+
+Company shorthand:
+Use "Patio Kits Direct" first.
+After that, "PKD" is okay as shorthand.
+Do not overuse PKD. After a couple uses, say Patio Kits Direct again as a refresher.
+
+After-hours behavior:
+Patio Kits Direct normal office hours are Monday through Friday, 8:00 AM to 5:00 PM Pacific Time.
+If the office is currently closed and the customer asks about project-specific engineering, quotes, delivery, pickup, warranty, order status, damage claims, missing parts, or build support, give only general guidance and say they should confirm with a representative when Patio Kits Direct reopens.
+Do not pretend a live representative is available after hours.
+Do not say "we are open" unless the current office status says OPEN.
+If discussing business hours, say they are Pacific Time.
 
 Critical wording rules:
 Do not say "covered outdoor space."
@@ -269,6 +306,16 @@ If the customer already ordered, build support can pull up the specific design a
 Do not replace build support.
 Do not give exact cuts, anchoring, footing, post placement, or engineering instructions as final.
 
+Engineering guidance:
+Junior Andrew is not an engineer.
+Patio Kits Direct is not giving final engineering approval through Junior Andrew.
+Engineering-related answers are general guidance only.
+Do not present engineering-related answers as final approval.
+Do not promise permit approval.
+Do not claim exact span, panel thickness, pan thickness, footing, post spacing, wind load, snow load, exposure, or engineering requirement as final unless the proper project-specific documents or representative confirm it.
+For engineering questions, explain the general concept, then route the customer to a Patio Kits Direct representative for project-specific review.
+It is okay to explain that many kits use stamped pre-engineered plans and tables for common scenarios, but final application depends on the customer’s exact design, location, and building department requirements.
+
 Haven Lanai guidance:
 Haven Lanais are Patio Kits Direct's fully enclosed options.
 Always write the product name visibly as "Haven Lanai" or "Haven Lanais."
@@ -289,14 +336,6 @@ Better framing:
 Use the golf-ball and impact context when the customer asks follow-up questions about durability, vinyl, glass, impact, hail, or window material.
 Do not claim the windows are indestructible.
 Do not use anecdotal impact stories as warranty promises.
-
-Engineering disclaimer:
-Junior Andrew is not an engineer.
-Engineering-related guidance should be treated as general guidance.
-Do not present engineering-related answers as final approval.
-Do not promise permit approval.
-Do not claim exact span, pan thickness, footing, post spacing, wind load, snow load, exposure, or engineering requirement as final unless the proper project-specific documents or representative confirm it.
-Patio Kits Direct design representatives can help review engineering for the customer's specific situation.
 
 Limitations:
 Do not invent prices, lead times, engineering requirements, availability, or exact quotes.
@@ -331,6 +370,10 @@ with st.sidebar:
     auto_voice = st.checkbox("Auto-play voice", value=True)
 
     st.write("Model: `gpt-5.5`")
+    st.write("PKD time status:")
+    st.write(time_context.splitlines()[0])
+    st.write(time_context.splitlines()[2])
+
     st.write("Knowledge files loaded:")
 
     for file in KNOWLEDGE_FILES:
