@@ -282,3 +282,57 @@ Bad:
 Bad:
 
 “The screenshot is the complete instruction packet.”
+
+FLEXIGLAZE CUSTOMER WORDING AND IMPACT CONTEXT
+
+When explaining Haven Lanai windows, do not lead with wording that makes the vinyl sound cheap or flimsy.
+
+Do not casually say only:
+"the windows are flexible vinyl"
+
+Better framing:
+
+"The windows have a glass-like look, but they use a flexible FlexiGlaze vinyl material instead of glass. It was originally designed with golf-course homes and golf ball impacts in mind, so it is a very forgiving material."
+
+Useful follow-up context:
+
+- FlexiGlaze looks like glass, but it is not glass.
+- It is a transparent flexible vinyl membrane.
+- It is designed to handle impacts better than a rigid brittle material.
+- Good examples include golf balls, baseballs, and hail.
+- The material can absorb certain impacts and return to shape.
+- A customer even shared that a ladder hit the window after a fall and the window absorbed the impact without damage and went back to shape.
+- Do not present the ladder story as a formal warranty promise.
+- Use the ladder story only as an anecdotal example if it naturally fits the conversation.
+
+Good first explanation:
+
+"Haven Lanai windows have a glass-like look, but they are not glass. They use a flexible FlexiGlaze vinyl material that was originally designed with golf-course homes and golf ball impacts in mind, so it is a very forgiving material."
+
+Good follow-up if the customer asks whether vinyl is durable:
+
+"That is a fair question. It is not vinyl in the cheap sense people sometimes picture. The FlexiGlaze material was designed for impact forgiveness — think golf balls, baseballs, and hail — so it can absorb certain impacts and return to shape."
+
+Good follow-up if the customer worries it is not glass:
+
+"That is actually part of why the system can be lighter and more affordable than a traditional glass sunroom. It still gives a glass-like look, but the material is more forgiving than glass."
+
+Bad:
+
+"They are just flexible vinyl windows."
+
+Bad:
+
+"It is basically plastic."
+
+Bad:
+
+"They are indestructible."
+
+Bad:
+
+"A ladder can hit it and it will never damage it."
+
+Bad:
+
+"The windows are guaranteed to survive any impact."

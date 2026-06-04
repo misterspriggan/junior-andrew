@@ -75,8 +75,13 @@ def make_spoken_version(text: str) -> str:
     # Visible text still says Lanai/Lanais, but spoken audio uses "la nai"
     # because "A Haven la nai is Patio Kits Direct's fully enclosed option."
     # tested as the best pronunciation.
-    spoken = re.sub(r"\bHaven Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    # Also catch accidental visible spacing like "L anai" so the voice does not say "L" + "anai."
+    spoken = re.sub(r"\bHaven\s+L\s+anais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bHaven\s+L\s+anai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bHaven\s+Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bHaven\s+Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bL\s+anais\b", "la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bL\s+anai\b", "la nai", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bLanais\b", "la nai", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bLanai\b", "la nai", spoken, flags=re.IGNORECASE)
 
@@ -207,6 +212,9 @@ Do not give exact cuts, anchoring, footing, post placement, or engineering instr
 
 Haven Lanai guidance:
 Haven Lanais are Patio Kits Direct's fully enclosed options.
+Always write the product name visibly as "Haven Lanai" or "Haven Lanais."
+Never visibly write "la nai", "L anai", "L-anai", "la-nai", or other pronunciation spellings in customer-facing text.
+Pronunciation helpers are only for hidden spoken audio, not visible text.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
 Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
