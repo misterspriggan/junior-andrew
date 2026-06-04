@@ -71,11 +71,11 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
-    # Make ElevenLabs pronounce Lanai/Lanais more naturally.
-    # Goal: "la nigh" like "la la la" + "nigh", not "lawn eye", "loo nigh", or "lawnee."
-    spoken = re.sub(r"\bHaven Lanais\b", "Haven la nighs", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanais\b", "la nighs", spoken, flags=re.IGNORECASE)
-    spoken = re.sub(r"\bLanai\b", "la nigh", spoken, flags=re.IGNORECASE)
+    # Keep Lanai/Lanais capitalized because ElevenLabs pronounces it better that way.
+    # Do not use phonetic spellings like "la nigh" because they can sound unnatural.
+    spoken = re.sub(r"\bhaven lanais\b", "Haven Lanais", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\blanais\b", "Lanais", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\blanai\b", "Lanai", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
     # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
@@ -200,7 +200,7 @@ Do not give exact cuts, anchoring, footing, post placement, or engineering instr
 Haven Lanai guidance:
 Haven Lanais are Patio Kits Direct's fully enclosed options.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
-Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom lanai.
+Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
 You may explain the general animated instruction roadmap if helpful.
 
