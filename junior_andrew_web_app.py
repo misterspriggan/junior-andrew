@@ -66,12 +66,18 @@ def load_knowledge() -> str:
 def clean_visible_text(text: str) -> str:
     cleaned = text.strip()
 
-    # Keep Lanai/Lanais visible text consistent.
-    # Do NOT use pronunciation spellings in visible text.
-    cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanais", cleaned, flags=re.IGNORECASE)
+    # Keep product name customer-facing and capitalized.
+    cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bhaven\s+lanai\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"\blanais\b", "Lanais", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"\blanai\b", "Lanai", cleaned, flags=re.IGNORECASE)
+
+    # Avoid standalone "lanai" / "Lanai" because the voice can pronounce it poorly.
+    # Make the visible text say the full product name instead.
+    cleaned = re.sub(r"\blanais\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\blanai\b", "Haven Lanai", cleaned, flags=re.IGNORECASE)
+
+    # Clean accidental duplicated product names.
+    cleaned = re.sub(r"\bHaven Haven Lanai\b", "Haven Lanai", cleaned)
+    cleaned = re.sub(r"\bHaven Lanai Haven Lanai\b", "Haven Lanai", cleaned)
 
     return cleaned
 
@@ -84,9 +90,10 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
-    # IMPORTANT:
-    # No Lanai pronunciation hack here.
-    # Capitalized "Haven Lanai" sounded best, so we let ElevenLabs read it naturally.
+    # This is the exact spoken pattern that tested best in ElevenLabs:
+    # "A Haven la nai is Patio Kits Direct's fully enclosed option."
+    # Visible text still shows "Haven Lanai."
+    spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
 
     # Company pronunciation helper.
     # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
@@ -214,13 +221,15 @@ Do not replace build support.
 Do not give exact cuts, anchoring, footing, post placement, or engineering instructions as final.
 
 Haven Lanai guidance:
-Haven Lanais are Patio Kits Direct's fully enclosed options.
-Always write the product name visibly as "Haven Lanai" or "Haven Lanais."
-Always capitalize Lanai and Lanais.
+Haven Lanai is Patio Kits Direct's fully enclosed option.
+Always write the product name visibly as "Haven Lanai."
+Do not write standalone "Lanai" when "Haven Lanai" would fit.
+Always capitalize Haven Lanai.
 Never write lowercase "lanai" or "lanais" in customer-facing text.
 Never visibly write "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
+Pronunciation helpers are only for hidden spoken audio, not visible text.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
-Haven Lanais have their own animated instructions in the 3D Designer for the customer's custom Lanai.
+Haven Lanai has its own animated instructions in the 3D Designer for the customer's custom Haven Lanai.
 If customers ask how to build a Haven Lanai, route them to the 3D Designer animated instructions and build support for project-specific guidance.
 You may explain the general animated instruction roadmap if helpful.
 
