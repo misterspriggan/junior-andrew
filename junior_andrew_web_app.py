@@ -64,11 +64,6 @@ def load_knowledge() -> str:
 
 
 def clean_visible_text(text: str) -> str:
-    """
-    Clean customer-visible assistant text before displaying/storing it.
-    This keeps product names consistent and avoids lower-case "lanai"
-    causing weird voice pronunciation later.
-    """
     cleaned = text.strip()
 
     cleaned = re.sub(r"\bhaven\s+lanais\b", "Haven Lanais", cleaned, flags=re.IGNORECASE)
@@ -87,19 +82,20 @@ def make_spoken_version(text: str) -> str:
         "eight eight eight, eight five one, eight three five one",
     )
 
-    # ElevenLabs pronunciation helper.
-    # Only alter the full Haven Lanai / Haven Lanais phrase.
-    # Do NOT replace every standalone Lanai with "la nai" because that can sound like "L anai."
+    # Voice pronunciation helper.
+    # Full brand phrase worked best as "Haven la nai."
+    # Standalone Lanai/Lanais is replaced with "the enclosure" in audio only,
+    # because ElevenLabs was inconsistently saying "L anai."
     spoken = re.sub(r"\bHaven Lanais\b", "Haven la nai", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanais\b", "the enclosures", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bLanai\b", "the enclosure", spoken, flags=re.IGNORECASE)
 
     # Company pronunciation helper.
-    # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
     spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
 
     # Make dimensions sound natural.
-    # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
     spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
 
     # Make common units sound natural.
@@ -109,7 +105,6 @@ def make_spoken_version(text: str) -> str:
     spoken = re.sub(r"\b1\s*feet\b", "1 foot", spoken, flags=re.IGNORECASE)
 
     # Make feet/inch marks sound natural.
-    # Example: 22'4" -> 22 feet 4 inches
     spoken = re.sub(r"\b(\d+)'\s*(\d+)\"", r"\1 feet \2 inches", spoken)
     spoken = re.sub(r"\b(\d+)'\b", r"\1 feet", spoken)
     spoken = re.sub(r"\b(\d+)\"", r"\1 inches", spoken)
