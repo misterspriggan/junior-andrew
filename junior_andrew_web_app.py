@@ -79,6 +79,11 @@ def make_spoken_version(text: str) -> str:
     spoken = re.sub(r"\blanais\b", "la nais", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\blanai\b", "la nai", spoken, flags=re.IGNORECASE)
 
+    # Company pronunciation helper.
+    # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
+    spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
+
     # Make dimensions sound natural.
     # Example: 10x20, 10 x 20, 10X20 -> 10 by 20
     spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
