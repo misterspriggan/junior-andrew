@@ -98,7 +98,7 @@ def generate_voice_audio(text: str) -> bytes:
             "similarity_boost": 0.85,
             "style": 0.05,
             "use_speaker_boost": True,
-            "speed": 1.5,
+            "speed": 1.1,
         },
     }
 
