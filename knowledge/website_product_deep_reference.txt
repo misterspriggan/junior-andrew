@@ -1,0 +1,579 @@
+WEBSITE PRODUCT DEEP KNOWLEDGE REFERENCE
+
+This file teaches Junior Andrew product and policy knowledge from Patio Kits Direct website pages and screenshots.
+
+Use this for:
+- answering product questions from the website
+- explaining aluminum vs wood
+- explaining maintenance
+- explaining warranty at a high level
+- explaining pickup and delivery expectations
+- explaining engineering and permits generally
+- explaining the 3D designer value
+- answering DIY build expectation questions
+- directing customers to the correct website page when helpful
+
+Important:
+Do not treat screenshots as live website data.
+Do not guarantee current prices, discounts, current hours, current pickup locations, current warranty language, exact engineering approval, or final permit requirements.
+For exact order, warranty, permit, pickup, delivery, and engineering details, route the customer to a Patio Kits Direct representative.
+
+Customer-facing style:
+Answer naturally and briefly.
+Prioritize what sounds good out loud.
+Avoid slash shorthand.
+Do not over-explain unless the customer asks.
+
+LOCATION TEXTURE NOTE
+
+Texture and finish can vary depending on product, manufacturer, and location.
+
+Important company note:
+In the East and some Central areas, the non-insulated roof pan may have a smooth texture, and the insulated roof panels may have a stucco texture. For both, the frame can still be wood-grained.
+
+Use this when customers ask about texture, smooth finish, stucco finish, or matching the look of components.
+
+Good answer:
+"Texture can vary by product and location. In the East and some Central areas, non-insulated roof pans are often smooth, while insulated panels may have more of a stucco texture. The frame can still be wood-grained on both. A representative should confirm the exact finish for your location and product."
+
+ALUMINUM VS WOOD-GRAINED ALUMINUM VS REAL WOOD
+
+Relevant website paths:
+- Hover over Learning Center, then click About Wood-Grained Aluminum Patio Covers.
+- Hover over Learning Center, then click Aluminum Patio Covers vs. Real Wood.
+- URL examples shown:
+  - /about-alumawood-patio-covers/
+  - /alumawood-vs-wood/
+  - /benefits-of-an-alumawood-patio-cover-vs-wood-patio-cover/
+
+General message:
+Wood-grained aluminum patio covers are designed to give a wood-like appearance with much lower maintenance than real wood.
+
+Website themes:
+- Aluminum patio covers can look like wood without the maintenance of wood.
+- Aluminum does not rot.
+- Aluminum does not attract termites.
+- Aluminum does not need regular repainting or staining like wood.
+- Aluminum is generally easier to maintain.
+- Wood can require more ongoing maintenance and can be affected by weather, rot, warping, termites, peeling, cracking, or repainting needs.
+- Aluminum patio covers are meant to be durable and long-lasting.
+
+Good answer:
+"Wood-grained aluminum is meant to give you the look of wood without the upkeep. Real wood can look nice, but it usually needs more maintenance over time, like repainting, staining, and watching for rot or termites. Aluminum is usually the lower-maintenance choice."
+
+Do not say real wood is always bad.
+Better:
+"Real wood can be beautiful, but it usually needs more upkeep."
+
+ALUMAWOOD, WEATHERWOOD, ELITEWOOD, DURALUM, FOUR SEASONS
+
+The website references several manufacturer or product families, including:
+- Alumawood
+- Weatherwood
+- Elitewood
+- Duralum
+- Four Seasons
+
+Do not assume every product is available in every region.
+Availability, colors, pickup options, engineering, and lead times can vary by manufacturer and location.
+
+Good answer:
+"Patio Kits Direct works with different patio cover product lines and manufacturers, and the exact options can vary by location. A representative can confirm which product line applies to your quote."
+
+ABOUT PATIO KITS DIRECT PAGE
+
+Relevant website path:
+- Hover over Learning Center, then click About Us.
+- URL example shown: /about/
+
+Website themes:
+Patio Kits Direct presents itself as a company focused on DIY patio cover kits and customer support.
+
+Visible claims and themes include:
+- years in business specializing in Alumawood patio cover kits
+- many DIY kits sold nationwide
+- highly reviewed and ranked on Yelp and Google
+- platinum dealer status with manufacturer Amerimax
+- long combined industry experience
+- dedicated to DIY kits, instructions, and customer support
+- support during the build, including FaceTime-type help
+- full office staff with product knowledge
+- showroom and office location based in Corona, California
+- relationship with Southern California Patios
+- contractor state license reference
+- permit technicians to help with permitting, HOA, and engineering needs
+- recommended contractors and handymen may be available in some areas
+- freight carrier relationships and local delivery network
+- pickup locations in many states
+
+Use this when customers ask:
+- Is Patio Kits Direct legit?
+- Who is Patio Kits Direct?
+- Do you help with DIY?
+- Do you have support after purchase?
+- Do you have a showroom?
+- Can someone help during the build?
+
+Good answer:
+"Patio Kits Direct focuses on DIY patio cover kits, but you are not just left on your own. The website emphasizes design help, instructions, customer support, and build support. For project-specific help, it is best to call Patio Kits Direct at (888) 851-8351."
+
+ABOUT OUR KITS PAGE
+
+Relevant website path:
+- Hover over Learning Center, then click About Our Kits.
+- URL example shown: /about-our-patio-kits/
+
+Website themes:
+- Alumawood kits are presented as quality, durable, and designed for DIY installation.
+- Kits are structurally engineered.
+- Build support and instructions are available.
+- Engineering packets are mentioned.
+- Lead time on kits is discussed on the website, but do not quote a current lead time unless confirmed.
+- There are videos and examples.
+- The website encourages the customer to design their cover and get a quote.
+
+Use this when customers ask:
+- What comes with a kit?
+- Are kits engineered?
+- Are kits DIY?
+- Is build support available?
+- What makes the kits different?
+
+Good answer:
+"The kits are designed as DIY patio cover kits, with engineering information, instructions, and support available. The exact parts and requirements depend on your final design, so your quote and parts list are the real source for your specific kit."
+
+STRUCTURALLY ENGINEERED / ENGINEERING PACKETS
+
+Website themes:
+- Patio covers are structurally engineered.
+- Engineering packets may be available.
+- The website references engineering reports, product evaluation reports, and permit support.
+- Engineering and permit requirements depend on location, design, attachment, loads, and building department rules.
+
+Use with existing engineering guardrails:
+Junior Andrew is not an engineer.
+Do not give final approval.
+Do not promise permit approval.
+Do not give exact span, pan thickness, footing, post spacing, wind load, snow load, exposure, or engineering requirements as final.
+
+Good answer:
+"The website has an Engineering and Permits section, and Patio Kits Direct can help with general engineering information. Your exact requirements depend on your city or county, design, wind load, snow load, attachment, and other factors, so a representative should review the project."
+
+ENGINEERING AND PERMITS PAGE
+
+Relevant website path:
+- Hover over How To Build, then click Engineering and Permits.
+- URL example shown: /patio-cover-permits-and-engineering/
+
+Website themes:
+- Some cities require engineering and permits.
+- Requirements vary by building department.
+- Permits may require a plot map or site plan, structural plans, and an engineering report.
+- Different states may accept different engineering reports.
+- The page references ICC evaluation reports.
+- Regional snow load and wind exposure matter.
+- Ground snow load can affect design requirements.
+- Wind exposure can affect structure requirements.
+- Patio covers are designed to withstand wind and snow for specific engineering requirements, but final design must be confirmed.
+
+Important:
+Do not say "you definitely need a permit."
+Do not say "you definitely do not need a permit."
+Do not promise a specific engineering packet will be accepted.
+Do not promise a roof attachment is allowed in every location.
+
+Good answer:
+"Hover over How To Build, then click Engineering and Permits. That page explains the general permit and engineering process. Whether you need a permit depends on your building department and project details, so it is best to confirm with your city or county and a Patio Kits Direct representative."
+
+SNOW LOAD PAGE
+
+Relevant URL example shown:
+- /patio-covers-engineered-for-snow-loads-in-utah/
+
+Website themes:
+- Snow load requirements vary by location.
+- Some areas require engineering for snow loads.
+- Utah examples mention ground snow load, roof snow load, wind speed, and wind exposure.
+- Aluminum patio covers can be a solid option for snow areas when properly engineered and designed.
+- Engineering, permitting, and documentation may be needed.
+- The customer may need stamped engineering, local code confirmation, and city or county approval.
+
+Important:
+Do not give exact snow load requirements as final.
+Do not say a specific cover will pass without reviewing the design and location.
+Use the page as general education.
+
+Good answer:
+"Snow load is very location-specific. Patio Kits Direct has information about snow-load engineering, but the final design needs to match your local requirements. A representative can help review your city, snow load, wind exposure, and the correct engineering documents."
+
+FACTORS FOR PATIO COVER ENGINEERING
+
+Website factors shown include:
+- regional live load or snow load
+- wind speed
+- wind exposure
+- design load
+- whether attachment is allowed
+- building department requirements
+- engineering report or ICC report
+- permit plan submittal
+- final installed design
+
+Good answer:
+"The big engineering factors are usually snow load or live load, wind speed, wind exposure, attachment type, and what your building department requires."
+
+3D PATIO COVER DESIGNER AND QUOTING TOOL
+
+Relevant website path:
+- Hover over 3D Patio Quote and Design, then click Start Designing.
+- Hover over 3D Patio Quote and Design, then click How to Use 3D Patio Designer.
+- URL example shown: /patio-kit-directs-3d-patio-cover-designer-and-quoting-tool/
+
+Website themes:
+The 3D Designer is meant to let homeowners visualize and quote a patio cover online.
+
+Main points:
+- Customers can visualize their patio cover online.
+- Customers can explore options and find a fit.
+- The designer helps with patio type, size, layout, colors, accessories, and quote flow.
+- It can reduce confusion because customers can see the design.
+- It helps homeowners take control of the backyard project.
+- It can help make budgeting easier by showing options and quoting.
+- It is not a substitute for final representative review when something is custom or unusual.
+
+Good answer:
+"Hover over 3D Patio Quote and Design, then click Start Designing. The 3D Designer lets you build the patio cover visually, pick options, and work toward pricing. If something does not fit your layout, you can request a custom quote or contact a representative."
+
+DIY INSTALLATION / DO I NEED A PROFESSIONAL?
+
+Relevant website path:
+- Hover over How To Build, then click How to DIY.
+- URL example shown: /can-i-install-alumawood-patio-covers-myself-or-do-i-need-a-professional/
+
+Website themes:
+- Many homeowners can install Alumawood patio covers themselves.
+- DIY installation depends on comfort level, tools, technical skill, physical ability, and the project complexity.
+- Some projects may be better for a professional or handyman.
+- Professional installation can reduce risk and save time.
+- DIY can save money, but it requires careful planning and proper tools.
+- A typical build may require a meaningful amount of labor and time.
+- The website references a DIY checklist with labor and specialized tools.
+- Building a patio cover is not just snapping pieces together; the customer needs to follow instructions and understand the project.
+
+Tools and ability themes:
+- basic tools and drilling/cutting ability may be needed
+- ladder work may be involved
+- anchoring and attachment must be done properly
+- technical skill matters
+- a helper is usually valuable
+- final instructions and design matter
+
+Good answer:
+"Some homeowners do build these themselves, especially if they are comfortable with tools, ladders, measuring, and following instructions. If you are not comfortable with that, a handyman or contractor may be a better fit. Either way, the final design and instruction packet should be followed closely."
+
+Do not shame customers for needing help.
+Do not overpromise that anyone can build it easily.
+Do not give final installation instructions from website screenshots alone.
+
+TOOLS NEEDED
+
+Relevant website path:
+- Hover over How To Build, then click Tools Needed.
+
+The website references build tools and planning, but tool needs depend on product and design.
+
+General answer:
+"The website has a Tools Needed section under How To Build. The exact tools can depend on the cover type and design, but customers should expect normal construction tools, measuring tools, ladders, and tools for drilling or fastening. The final instruction packet is the best source for the exact tool list."
+
+PICKUP AND DELIVERY PAGE
+
+Relevant website path:
+- Hover over How To Build, then click Pick Up and Deliveries.
+- URL example shown: /pick-up-deliveries/
+
+Website themes:
+Customers may be able to choose pickup or delivery depending on location, product, manufacturer, and order.
+
+Pickup:
+- Pickup may save money compared with delivery.
+- Pickup is only available at certain pickup or will-call locations.
+- Pickup locations vary by product and manufacturer.
+- Customer is responsible for arranging proper transportation.
+- Material is produced and transferred to will-call facilities.
+- Customer is notified when kit is in production to schedule pickup.
+- Kits often require a pickup truck with ladder rack, trailer, or U-Haul.
+- Material may be spliced upon request to help with transportation, but that request must be made at time of purchase.
+- Example shown: for a 12 by 20 patio cover, the longest piece may be 20 feet unless splicing is requested; splicing can affect post quantity depending on the option.
+- Customer should contact a design representative to help determine longest piece.
+- Customer should bring proper transportation and straps.
+- Material will not be loaded onto unconventional transportation methods if that risks damage, such as boat trailers or sedans.
+- Customer is responsible for loading or arranging transport as stated on the pickup terms.
+- Customer should inspect material before leaving the yard.
+- Customer should report damage before leaving the yard.
+- Customer should report shortages before leaving the yard.
+- If damaged or shorted material is not reported before leaving the yard, Patio Kits Direct may be unable to file a claim.
+- Replacement material may need to be reproduced by the manufacturer.
+- Replacement materials may not be shipped without collecting payment for delivery.
+
+Good pickup answer:
+"Hover over How To Build, then click Pick Up and Deliveries. Pickup can save money, but you need proper transportation, like a truck with a ladder rack, trailer, or U-Haul. You should also inspect everything before leaving the yard and report any damage or shortages right away."
+
+Delivery:
+- Delivery can be glove-service delivery to the backyard when accessible.
+- Delivery drivers need to be able to drive into the neighborhood and safely deliver.
+- If the driver cannot access the area or feels unsafe, material may be held at a transfer station and the customer may need to arrange pickup.
+- Do not schedule the build until the kit has been received and thoroughly inspected.
+- Do not schedule time off work until the delivery time is confirmed with the freight carrier.
+- Freight delays can happen.
+- Freight is not delivered on holidays or weekends.
+- Returns and refunds are not accepted because each kit is manufactured custom to the order.
+- Customer may receive a text from the delivery app when material is ready.
+- Customer service should be contacted to confirm delivery date and timeframe.
+- The link may let the customer track the driver.
+- Homeowner does not necessarily need to be home at delivery.
+- Drivers can place material in the yard.
+- Drivers do not transport to second stories, or up and down stairways or hills.
+- Damage should be reported within 5 business days.
+- Customer should provide 4 to 10 photos of damage.
+- If damage is not reported within 5 business days, Patio Kits Direct may be unable to file a claim with the manufacturer.
+
+Good delivery answer:
+"Do not schedule your build until the kit has arrived and you have inspected it. If anything is damaged, report it within 5 business days and provide photos so a claim can be filed."
+
+Important delivery/pickup guardrails:
+Do not promise delivery is available everywhere.
+Do not promise pickup is available everywhere.
+Do not promise exact delivery dates.
+Do not promise material can fit in a customer's vehicle.
+Do not promise splicing is available after purchase.
+Do not promise replacement material will be free if damage was not reported on time.
+
+WARRANTY PAGE
+
+Relevant website path:
+- Hover over Learning Center, then click Warranty.
+- URL example shown: /warranty/
+
+Website themes:
+The website includes product warranty information for:
+- Alumawood products
+- Duralum products
+- Four Seasons Building Products
+- other manufacturer warranty information may also be linked
+
+Important:
+Warranty terms can vary by manufacturer and product.
+Do not summarize warranty as a legal guarantee.
+Do not promise a claim will be approved.
+Refer customers to the warranty page and representative for exact warranty terms.
+
+General themes:
+- Limited lifetime warranty language is referenced for some products.
+- Warranty coverage may apply to specific defects or paint finish issues.
+- Warranty may require original purchaser or original location conditions.
+- Warranty may have exclusions.
+- Warranty may require inspection, documentation, and claim process.
+- Damage, misuse, improper installation, environmental conditions, or failure to maintain may not be covered.
+- Warranty language should be read from the official page or documents.
+
+Good answer:
+"Hover over Learning Center, then click Warranty. Warranty terms can vary by manufacturer and product, so that page and your order documents are the best source. A representative can help review which warranty applies to your kit."
+
+TERMS AND CONDITIONS PAGE
+
+Relevant footer/top link:
+- Terms
+- URL example shown: /terms/
+
+Website themes:
+The Terms and Conditions page includes policies about:
+- orders
+- payment
+- cancellations
+- damage
+- delivery
+- customer responsibility
+- installation
+- returns
+- SMS terms and conditions
+- legal terms
+
+Important:
+Junior Andrew should not give legal advice.
+For exact terms, direct customer to the Terms and Conditions page or a representative.
+
+Good answer:
+"The Terms and Conditions page has the official policy language. I can explain the general idea, but for exact policy details you should review that page or confirm with Patio Kits Direct."
+
+CARE AND MAINTENANCE OF ALUMINUM PATIO COVERS
+
+Relevant website paths:
+- Hover over Learning Center, then click Alumawood Care and Maintenance.
+- URL examples shown:
+  - /care-maintenance/
+  - /aluminum-patio-cover-maintenance/
+
+Website themes:
+Aluminum patio covers are low maintenance but not zero maintenance.
+
+General maintenance:
+- Routine cleaning helps maintain appearance.
+- Keep gutters and drain areas clear.
+- Inspect fasteners and connections.
+- Address debris, dirt, and buildup.
+- Avoid harsh or abrasive cleaners unless manufacturer guidance allows.
+- Use gentle cleaning methods.
+- Do not use damaging products or methods.
+- Regular inspection is helpful, especially after storms or high winds.
+- Touch-up or service may be needed for scratches or damage.
+- Maintenance helps protect the finish and prolong life.
+- Professional inspection may be useful if there are structural concerns.
+
+Cleaning caution:
+A screenshot mentions not using certain products or harsh cleaning materials on aluminum patio coating. When unsure, tell customers to follow the manufacturer's cleaning instructions.
+
+Good answer:
+"Aluminum patio covers are low maintenance, but they still benefit from routine cleaning, keeping gutters clear, and checking fasteners or damage once in a while. Avoid harsh cleaners unless the manufacturer specifically allows them."
+
+Maintenance schedule shown:
+- weekly: visual inspection, clear debris and loose parts
+- monthly: tighten hardware and clean surface
+- seasonally: deep clean, inspect patio cover, apply protective coatings if appropriate
+- annually: professional evaluation or structural reinforcement if necessary
+
+Do not make this sound mandatory for every customer.
+Use it as general best-practice guidance.
+
+Good answer:
+"A simple routine is to visually check it occasionally, keep it clean, clear debris, and inspect after storms. If something looks loose or damaged, contact support before it becomes a bigger issue."
+
+COLOR AND TEXTURE KNOWLEDGE
+
+Relevant website path:
+- Hover over Customization, then click Colors.
+- URL example shown: /aluminum-patio-cover-colors/
+
+Colors vary by:
+- manufacturer
+- product line
+- region
+- insulated vs non-insulated components
+- screen display
+
+Common colors shown in website screenshots:
+- White
+- Latte
+- Desert Sand
+- Spanish Brown
+- Adobe
+- Graphite
+- Ebony
+- Wheat
+- Bronze
+- Mojave Tan or similar tan options depending on product and manufacturer
+
+Important texture note:
+In the East and some Central areas, the non-insulated roof pan may be smooth, and the insulated panel may have a stucco texture. The frame can still be wood-grained for both.
+
+Good answer:
+"Hover over Customization, then click Colors. The page shows the main color swatches, but availability and texture can vary by product and region. In the East and some Central areas, non-insulated roof pans may be smooth while insulated panels may be stucco-textured, with wood-grained framing on both."
+
+Avoid:
+"All parts will have the exact same texture."
+"Every location has every color."
+"The screenshot is final color confirmation."
+
+FAQ PAGE
+
+Relevant path:
+- FAQ is a direct top/footer link.
+- URL example shown: /faqs/
+
+Website themes:
+The FAQ page includes:
+- video about length and height
+- video about color
+- downloadable PDF or reference material
+- general quick answers
+
+Use this for common beginner questions.
+
+Good answer:
+"The FAQ page is a good spot for quick videos and beginner explanations, especially for things like length, height, and colors."
+
+HOME PAGE AND GENERAL WEBSITE FLOW
+
+Website themes:
+- Start with the 3D Designer.
+- Choose patio cover type.
+- Design the cover.
+- Get instant pricing.
+- Choose delivery or pickup.
+- Use custom quote if the standard designer does not fit.
+- Use Contact Us for help.
+
+Good answer:
+"The easiest way to start is to hover over 3D Patio Quote and Design, then click Start Designing. If the standard designer does not match your situation, use Custom Quote or contact Patio Kits Direct."
+
+CONTACT AND SUPPORT
+
+Relevant path:
+- Contact Us is a direct top link.
+- URL example: /contact/
+
+Use for:
+- questions before ordering
+- sending project details
+- uploading files
+- build support
+- order-specific help
+- representative help
+
+Company phone:
+(888) 851-8351
+
+Good answer:
+"Click Contact Us at the top of the website, or call Patio Kits Direct at (888) 851-8351."
+
+WHEN TO DIRECT TO REPRESENTATIVE
+
+Direct to a representative for:
+- exact quote
+- pricing
+- current promotions
+- order details
+- exact delivery or pickup location
+- exact lead time
+- engineering approval
+- permit confirmation
+- snow load or wind exposure confirmation
+- final color availability
+- warranty claim
+- damage claim
+- missing parts
+- installation-specific help
+- longest piece or splicing question
+- whether customer vehicle can transport material
+
+Good answer:
+"I can give the general idea, but that one should be confirmed by a representative because it depends on your exact design and location."
+
+REPETITION CONTROL
+
+Many website pages repeat themes like:
+- use the 3D Designer
+- get a quote
+- contact Patio Kits Direct
+- delivery or pickup
+- engineering depends on location
+- colors vary by product and manufacturer
+
+Junior Andrew should not repeat all of that every time.
+Answer the customer's actual question first.
+Add one relevant next step only.
+
+Good short answer:
+"Hover over Customization, then click Colors. That page shows the color swatches, but exact availability can vary by product and region."
+
+Bad repetitive answer:
+"Hover over Customization, click Colors, then use the 3D Designer, then contact us, then check pickup, then read engineering, then check warranty."

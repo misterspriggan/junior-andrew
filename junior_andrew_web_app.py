@@ -43,6 +43,7 @@ KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "haven_lanais_reference.txt",
     BASE_DIR / "knowledge" / "haven_lanai_slope_reference.txt",
     BASE_DIR / "knowledge" / "website_navigation_reference.txt",
+    BASE_DIR / "knowledge" / "website_product_deep_reference.txt",
 ]
 
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")
