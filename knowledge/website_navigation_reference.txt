@@ -1,6 +1,6 @@
 WEBSITE NAVIGATION AND PRODUCT KNOWLEDGE REFERENCE
 
-This file teaches Junior Andrew how to answer questions based on Patio Kits Direct website pages and screenshots.
+This file teaches Junior Andrew how to answer questions based on the Patio Kits Direct website screenshots and website structure.
 
 Use this for:
 - helping customers find the right page
@@ -11,100 +11,153 @@ Use this for:
 
 Important:
 Do not pretend to see the live website in real time.
-Do not guarantee current pricing, availability, showroom hours, pickup hours, color availability, or service area details unless confirmed by a representative or current live page.
+Do not guarantee current pricing, discounts, availability, showroom hours, pickup hours, service area details, color availability, or current website layout unless confirmed by a representative or current live page.
 Use this as general website guidance.
 
-GENERAL WEBSITE STRUCTURE
+VOICE-FIRST WEBSITE GUIDANCE
 
-The Patio Kits Direct website has pages and sections for:
+Junior Andrew should answer like a person talking, not like a written sitemap.
+
+Avoid:
+"Navigate to the website and locate the appropriate page."
+
+Prefer:
+"Hover over Customization at the top of the website, then click Colors."
+
+Avoid slash shorthand like:
+window/door
+screen/window
+wind/snow
+and/or
+
+Use normal spoken wording:
+windows and doors
+screens and windows
+wind and snow
+or
+
+When giving website directions, prioritize the actual dropdown path.
+
+Good:
+"Hover over Customization, then click Colors."
+
+Good:
+"Hover over How To Build, then click Engineering and Permits."
+
+Good:
+"Hover over Haven Lanais, then click Lanai Window Specs."
+
+Bad:
+"Go to the website."
+
+Bad:
+"Look under the color page."
+
+Bad:
+"Check the navigation menu."
+
+MAIN TOP WEBSITE MENU
+
+The top navigation includes:
 
 - Home
 - Learning Center
 - Types of Covers
-- How to Build
-- Color Options
+- Haven Lanais
 - Customization
-- How to Get a Design
+- How To Build
+- 3D Patio Quote and Design
 - Contact Us
 - Blog
 - Videos
 - Shop Patio Accessories
-- FAQ
-- Privacy Policy and terms
-- Patio cover design tool
 
-Many pages include a bottom call-to-action section that says something like:
+The following top menu items do not appear to have dropdowns:
 
-"Are you ready to start designing your patio kit?"
+- Home
+- Contact Us
+- Blog
+- Videos
+- Shop Patio Accessories
 
-The typical website flow is:
+If a customer asks for one of those, Junior Andrew can say:
+"That one is a direct link at the top of the website."
 
-1. Select your patio cover
-2. Design your cover
-3. Get instant pricing
-4. Delivery or pickup
+LEARNING CENTER DROPDOWN
 
-HOME PAGE
+Hover over Learning Center to find:
 
-The home page presents Patio Kits Direct as a DIY Weatherwood patio cover kit source.
+- About Us
+- About Our Kits
+- About Wood-Grained Aluminum Patio Covers
+- Aluminum Patio Covers vs. Real Wood
+- Warranty
+- Alumawood Care and Maintenance
 
-It focuses on:
+Use this for general education questions about the company, the kits, wood-grained aluminum, warranty, and maintenance.
 
-- designing your own Alumawood patio cover
-- using the online designer
-- getting a quote
-- pricing
-- delivery
-- curbside pickup or pickup location options
-- phone and customer support
-- videos explaining the designer and setup process
-- product types like solid non-insulated, lattice, and solid insulated covers
-- custom options
-- homeowner examples and reviews
-- showroom or visit options
-- starting a patio cover design
+Examples:
 
-If a customer asks where to start, Junior Andrew can say:
+If a customer asks who Patio Kits Direct is:
+"Hover over Learning Center, then click About Us."
 
-"The easiest place to start is the 3D Designer. It lets you pick the cover type, enter your layout, choose options, and work toward a quote."
+If a customer asks what the kits are like:
+"Hover over Learning Center, then click About Our Kits."
 
-DIY PATIO KIT LEARNING PAGE
+If a customer asks about wood-grained aluminum:
+"Hover over Learning Center, then click About Wood-Grained Aluminum Patio Covers."
 
-The "Learn About DIY Patio Kits" page explains general DIY patio cover concepts and includes a video.
+If a customer asks about aluminum patio covers compared to real wood:
+"Hover over Learning Center, then click Aluminum Patio Covers vs. Real Wood."
 
-It also includes a serviceable locations section showing locations for pickup or delivery by manufacturer and product type.
+If a customer asks about warranty:
+"Hover over Learning Center, then click Warranty."
 
-The page is useful for customers asking:
+If a customer asks about cleaning or maintenance:
+"Hover over Learning Center, then click Alumawood Care and Maintenance."
 
-- what a DIY patio kit is
-- where Patio Kits Direct services
-- how pickup or delivery works generally
-- where to learn before designing
-- whether there are videos to explain the process
+TYPES OF COVERS DROPDOWN
 
-If a customer asks whether Patio Kits Direct services their area, Junior Andrew should not guess from memory. Better answer:
+Hover over Types of Covers to find:
 
-"Patio Kits Direct has a serviceable locations page with pickup and delivery areas by product and manufacturer. If you tell me your city and state, I can give general guidance, but a representative should confirm the exact service option."
+- Newport Solid Non-Insulated
+- Lattice Laguna
+- Solid Insulated
+- Patio Cover Galleries
 
-TYPES OF PATIO COVERS PAGE
+Use this for customers trying to compare cover types or view examples.
 
-The Types of Patio Covers page shows three main product styles:
+Examples:
 
-1. Newport solid non-insulated
-2. Solid insulated
+If a customer wants a non-insulated solid cover:
+"Hover over Types of Covers, then click Newport Solid Non-Insulated."
+
+If a customer wants a lattice cover:
+"Hover over Types of Covers, then click Lattice Laguna."
+
+If a customer wants an insulated cover:
+"Hover over Types of Covers, then click Solid Insulated."
+
+If a customer wants photos:
+"Hover over Types of Covers, then click Patio Cover Galleries."
+
+PRODUCT TYPES SHOWN ON THE WEBSITE
+
+The website shows three main patio cover styles:
+
+1. Newport Solid Non-Insulated
+2. Solid Insulated
 3. Lattice Laguna
-
-The page also links customers to galleries for examples.
 
 General explanation:
 
-Solid non-insulated:
+Newport Solid Non-Insulated:
 A solid roof cover that provides shade and rain coverage. It is a popular option when customers want a solid patio cover without needing the specific benefits of insulated panels.
 
-Solid insulated:
+Solid Insulated:
 A solid roof cover with insulated panels. It can make more sense when the customer cares about walking on the cover for maintenance, impact protection, hiding electrical, or possible future enclosure.
 
-Lattice:
+Lattice Laguna:
 An open shade structure. It gives filtered shade and a more open look, but it does not block rain the way a solid cover does.
 
 Do not say insulated is always better.
@@ -112,35 +165,70 @@ Do not call non-insulated basic.
 Frame them as different applications.
 
 Good answer:
-
 "Non-insulated is usually about getting a solid roof at a lower cost. Insulated starts to make more sense when impact protection, walking on it for maintenance, hiding electrical, or future enclosure matters. Lattice is more for filtered shade and appearance."
 
-RAFTER TAILS AND END CAPS PAGE
+HAVEN LANAIS DROPDOWN
 
-The Alumawood rafter tails and end caps page shows decorative style options.
+Hover over Haven Lanais to find:
 
-The visible styles include:
+- Lanai Window Specs
+- Lanai Customization Options
+- Lanai Warranty
 
-- Beveled
-- Mitered
-- Corbel
-- Scallop
+Use this for Haven Lanai-specific questions.
 
-These are mainly appearance choices.
+Examples:
 
-If a customer asks what rafter tails or end caps are:
+If a customer asks about Haven Lanai window material, window specs, FlexiGlaze, or 4-track windows:
+"Hover over Haven Lanais, then click Lanai Window Specs."
 
-"Rafter tails and end caps are the decorative end styles on the exposed ends of the patio cover members. They mostly affect the look of the cover."
+If a customer asks what can be customized on a Haven Lanai:
+"Hover over Haven Lanais, then click Lanai Customization Options."
 
-If asked which one is best:
+If a customer asks about Haven Lanai warranty:
+"Hover over Haven Lanais, then click Lanai Warranty."
 
-"That is mostly personal preference. Beveled and mitered are simpler and cleaner. Corbel and scallop have more decorative shape."
+Haven Lanai wording:
+Always write "Haven Lanai" or "Haven Lanais" with capital letters.
+Never write visible pronunciation spellings like l'nigh, l'nai, la nai, or L anai.
+Those pronunciation spellings are only for ElevenLabs pronunciation dictionary behavior, not customer-facing text.
+
+CUSTOMIZATION DROPDOWN
+
+Hover over Customization to find:
+
+- Size and Attachment
+- Colors
+- End Caps and Rafter Tails
+- Posts
+- Gutter and Fan Beams
+
+Use this for patio cover option questions.
+
+Examples:
+
+If a customer asks about size, measurements, projection, length, attachment style, wall attachment, fascia attachment, freestanding covers, or how to measure:
+"Hover over Customization, then click Size and Attachment."
+
+If a customer asks about color options:
+"Hover over Customization, then click Colors."
+
+If a customer asks about rafter tail styles or end caps:
+"Hover over Customization, then click End Caps and Rafter Tails."
+
+If a customer asks about posts or columns:
+"Hover over Customization, then click Posts."
+
+If a customer asks about gutters, fan beams, or ceiling fan beam options:
+"Hover over Customization, then click Gutter and Fan Beams."
 
 COLORS PAGE
 
+The Colors page is found by hovering over Customization, then clicking Colors.
+
 The colors page shows Alumawood, Weatherwood, and Elitewood color examples.
 
-The visible color examples include common colors such as:
+Visible color examples include common colors such as:
 
 - White
 - Latte
@@ -158,36 +246,127 @@ The page also explains that colors can vary by manufacturer, region, and product
 Important:
 Do not promise every color is available for every cover type or every location.
 Do not use website screenshots as final color confirmation.
-Computer screens can also make colors look different.
+Computer screens can make colors look different.
 
 Good answer:
+"Hover over Customization, then click Colors. That page has the main color swatches. Just keep in mind exact color availability can vary by product, manufacturer, and region, so a representative should confirm the final color for your specific kit."
 
-"The website has a color page with sample swatches, but exact color availability can vary by manufacturer, region, and product type. A representative can confirm what is available for your specific kit."
+END CAPS AND RAFTER TAILS PAGE
 
-CUSTOMIZATION OPTIONS PAGE
+The End Caps and Rafter Tails page is found by hovering over Customization, then clicking End Caps and Rafter Tails.
 
-The customization page shows that customers can customize their patio cover instead of buying a one-size-fits-all kit.
+The page shows decorative rafter tail and end cap styles.
 
-Visible/customization topics include:
+Visible styles include:
 
-- style and cover type
-- posts and columns
-- end caps and rafter tails
-- color choices
-- accessories and add-ons
-- designing the cover in the online designer
+- Beveled
+- Mitered
+- Corbel
+- Scallop
 
-The page encourages customers to customize and design their cover.
+These are mainly appearance choices.
+
+If a customer asks what rafter tails or end caps are:
+"Rafter tails and end caps are the decorative end styles on the exposed ends of the patio cover members. They mostly affect the look of the cover."
+
+If asked where to find them:
+"Hover over Customization, then click End Caps and Rafter Tails."
+
+If asked which one is best:
+"That is mostly personal preference. Beveled and mitered are simpler and cleaner. Corbel and scallop have more decorative shape."
+
+SIZE AND ATTACHMENT PAGE
+
+The Size and Attachment page is found by hovering over Customization, then clicking Size and Attachment.
+
+Use this for questions about:
+
+- size
+- measurements
+- projection
+- length
+- attachment
+- wall attachment
+- fascia attachment
+- freestanding covers
+- layout basics
+
+For attached covers:
+Projection is usually the distance coming out from the house.
+Length is usually the distance running left to right along the house.
+
+For a 10 by 20 attached cover:
+10 is usually the projection.
+20 is usually the length.
+
+For freestanding covers:
+Ask which direction the header beam runs and which direction the roof pans or rafters run.
+
+POSTS PAGE
+
+The Posts page is found by hovering over Customization, then clicking Posts.
+
+Use this for questions about post options, columns, or support posts.
+
+Do not promise exact post size, number of posts, post spacing, or footing requirements.
+That depends on the design, engineering, location, attachment style, load requirements, and final quote.
 
 Good answer:
+"Hover over Customization, then click Posts. That page is a good starting point for post options, but the final number and placement of posts depends on your specific design and engineering."
 
-"The customization page is where the site explains the main design choices, like cover style, posts or columns, end cap style, colors, and accessories."
+GUTTER AND FAN BEAMS PAGE
+
+The Gutter and Fan Beams page is found by hovering over Customization, then clicking Gutter and Fan Beams.
+
+Use this for questions about:
+
+- gutters
+- fan beams
+- ceiling fan support
+- hanging fans or accessories
+- drainage basics
+
+Do not guarantee that a fan beam is included or that a customer can hang a specific item from the cover without confirming the design.
+
+Good answer:
+"Hover over Customization, then click Gutter and Fan Beams. If you are planning to add a fan, that should be included in the design so the correct support can be planned."
+
+HOW TO BUILD DROPDOWN
+
+Hover over How To Build to find:
+
+- How to Design - Customer Worksheets
+- How to DIY
+- Tools Needed
+- Engineering and Permits
+- How To Videos
+- Pick Up and Deliveries
+
+Use this for installation, measuring, planning, tools, permit, engineering, pickup, and delivery questions.
+
+Examples:
+
+If a customer asks how to measure or fill out design information:
+"Hover over How To Build, then click How to Design - Customer Worksheets."
+
+If a customer asks if they can build it themselves:
+"Hover over How To Build, then click How to DIY."
+
+If a customer asks what tools are needed:
+"Hover over How To Build, then click Tools Needed."
+
+If a customer asks about permits or engineering:
+"Hover over How To Build, then click Engineering and Permits."
+
+If a customer wants build videos:
+"Hover over How To Build, then click How To Videos."
+
+If a customer asks about pickup or delivery:
+"Hover over How To Build, then click Pick Up and Deliveries."
 
 HOW TO BUILD PAGE
 
-The build instruction page is called something like "Learn How to Build Your Own Kit."
-
-It includes videos and general build support content.
+The How To Build page includes videos and general build support content.
 
 Use this page for customers asking:
 
@@ -195,75 +374,71 @@ Use this page for customers asking:
 - where installation help starts
 - how hard it is to build
 - whether instructions exist
+- what tools are needed
+- where permit and engineering information is
 
 Important:
 The website can help customers understand the general build process, but the actual build should follow the customer's final design, quote, parts checklist, and correct instruction packet.
 
 Good answer:
+"Hover over How To Build, then click How To Videos for general videos. If you already ordered, build support can give better help because they can look at your specific design."
 
-"The How to Build page is a good place to start for general videos and build information. If you already ordered, build support can give much better help because they can look at your specific design."
+ENGINEERING AND PERMITS PAGE
 
-CONTACT PAGE
-
-The Contact Us page includes a contact form and company contact information.
-
-The form asks for information like:
-
-- name
-- email
-- phone
-- zip code
-- message
-- optional file upload
-
-The page also lists showroom or contact hours and location information.
-
-Use this page when customers ask:
-
-- how to contact Patio Kits Direct
-- where to send pictures or project details
-- how to ask a question before ordering
-- where to get build support
-
-Good answer:
-
-"You can use the Contact Us page to send your information, message, and even a file. For faster help, Patio Kits Direct can also be reached at (888) 851-8351."
-
-PHONE NUMBER
-
-Use this company phone number when appropriate:
-
-(888) 851-8351
-
-Say it naturally in text as:
-
-"(888) 851-8351"
-
-The app will handle voice pronunciation.
-
-LOCATIONS PAGE
-
-The Locations page shows a service map and a list or table of pickup and will-call locations.
-
-It includes manufacturer or hub information, addresses, and will-call hours.
-
-The page appears to include locations by manufacturer such as Alumawood, Duralum, Four Seasons, and other hub or pickup options.
+The Engineering and Permits page is found by hovering over How To Build, then clicking Engineering and Permits.
 
 Use this for:
 
-- pickup location questions
-- will-call questions
-- service area questions
-- delivery and pickup guidance
+- permit questions
+- engineering questions
+- pre-engineered plans
+- whether a cover can meet code
+- what engineering means
+- whether Patio Kits Direct can help with engineering
 
 Important:
-Do not guarantee a pickup location is available for a customer's exact order.
-Do not guarantee current hours.
-Route exact logistics to a representative.
+Junior Andrew is not an engineer.
+Do not promise permit approval.
+Do not give final span, footing, post spacing, or load answers.
+Engineering depends on the specific design and location.
 
 Good answer:
+"Hover over How To Build, then click Engineering and Permits. That is the best website section for general permit and engineering information. For your exact project, a representative should review the design and location."
 
-"The Locations page shows pickup and will-call options by manufacturer and hub. Your exact pickup option depends on the product, manufacturer, and order details, so it is best to confirm with a representative."
+PICK UP AND DELIVERIES PAGE
+
+The Pick Up and Deliveries page is found by hovering over How To Build, then clicking Pick Up and Deliveries.
+
+Use this for:
+
+- pickup questions
+- delivery questions
+- will-call questions
+- where a customer can pick up
+- how shipping or pickup generally works
+
+Important:
+Do not guarantee a pickup location or delivery option for a specific customer without confirmation.
+
+Good answer:
+"Hover over How To Build, then click Pick Up and Deliveries. Exact pickup and delivery options depend on your product, manufacturer, and order details, so a representative should confirm the final option."
+
+3D PATIO QUOTE AND DESIGN DROPDOWN
+
+Hover over 3D Patio Quote and Design to find:
+
+- Start Designing
+- How to Use 3D Patio Designer
+
+Use this for customers who want to start a quote, use the design tool, or learn how the designer works.
+
+Examples:
+
+If a customer wants to get a quote:
+"Hover over 3D Patio Quote and Design, then click Start Designing."
+
+If a customer is confused about using the designer:
+"Hover over 3D Patio Quote and Design, then click How to Use 3D Patio Designer."
 
 3D DESIGNER PAGE
 
@@ -282,7 +457,7 @@ Visible patio type options include:
 The designer includes cover options such as:
 
 - coverage percentage for lattice covers
-- insulated or non-insulated toggles for some products
+- insulated and non-insulated options for some products
 - custom quote option
 - get quote option
 - video help area
@@ -305,8 +480,7 @@ The bottom navigation appears to include steps like:
 Use this for customers asking how to design or quote.
 
 Good answer:
-
-"The 3D Designer walks you through the patio type, location, measurements, attachment, header and end details, posts, rafters, colors, accessories, and then the quote summary."
+"Hover over 3D Patio Quote and Design, then click Start Designing. The designer walks through patio type, location, measurements, attachment, header and end details, posts, rafters, colors, accessories, and then the quote summary."
 
 If a customer asks where to change a specific option:
 
@@ -319,12 +493,70 @@ If a customer asks where to change a specific option:
 - Accessories: use the Accessories section
 - Final pricing: use Summary or Get Quote
 
-If a customer is confused by projection and length:
+If a customer asks how to use the designer:
+"Hover over 3D Patio Quote and Design, then click How to Use 3D Patio Designer."
 
-For attached covers, projection is usually the distance out from the house.
-Length is usually left to right along the house.
-For a 10 by 20 attached cover, 10 is usually the projection and 20 is usually the length.
-For freestanding covers, ask which direction the header beam runs and which direction the roof pans or rafters run.
+CONTACT PAGE
+
+Contact Us is a direct link at the top of the website and does not appear to have a dropdown.
+
+The Contact Us page includes a contact form and company contact information.
+
+The form asks for information like:
+
+- name
+- email
+- phone
+- zip code
+- message
+- optional file upload
+
+The page also lists showroom or contact hours and location information.
+
+Use this page when customers ask:
+
+- how to contact Patio Kits Direct
+- where to send pictures or project details
+- how to ask a question before ordering
+- where to get build support
+
+Good answer:
+"Click Contact Us at the top of the website. You can send your information, message, and even upload a file. For faster help, Patio Kits Direct can also be reached at (888) 851-8351."
+
+PHONE NUMBER
+
+Use this company phone number when appropriate:
+
+(888) 851-8351
+
+Say it naturally in visible text as:
+
+"(888) 851-8351"
+
+The app handles voice pronunciation.
+
+LOCATIONS PAGE
+
+The Locations page shows a service map and a list or table of pickup and will-call locations.
+
+It includes manufacturer or hub information, addresses, and will-call hours.
+
+The page appears to include locations by manufacturer such as Alumawood, Duralum, Four Seasons, and other hub or pickup options.
+
+Use this for:
+
+- pickup location questions
+- will-call questions
+- service area questions
+- delivery and pickup guidance
+
+Important:
+Do not guarantee a pickup location is available for a customer's exact order.
+Do not guarantee current hours.
+Route exact logistics to a representative.
+
+Good answer:
+"The Locations page shows pickup and will-call options by manufacturer and hub. Your exact pickup option depends on the product, manufacturer, and order details, so it is best to confirm with a representative."
 
 FAQ PAGE
 
@@ -340,7 +572,6 @@ Visible FAQ topics include:
 If a customer asks where to find basic questions, measurements, colors, or beginner explanations, send them to the FAQ page.
 
 Good answer:
-
 "The FAQ page has quick videos and reference material for common questions like length and height, colors, and basic planning."
 
 WEBSITE FOOTER
@@ -375,42 +606,53 @@ The flow is generally:
 
 If someone asks how to get a quote:
 
-"The fastest route is to start in the 3D Designer, choose your cover type, enter the project details, and go through the quote steps. If anything does not fit your situation, you can request a custom quote or contact a representative."
+"The fastest route is to hover over 3D Patio Quote and Design, then click Start Designing. Choose your cover type, enter the project details, and go through the quote steps. If anything does not fit your situation, you can request a custom quote or contact a representative."
+
+DIY PATIO KIT LEARNING PAGE
+
+The "Learn About DIY Patio Kits" page explains general DIY patio cover concepts and includes a video.
+
+It also includes a serviceable locations section showing locations for pickup or delivery by manufacturer and product type.
+
+The page is useful for customers asking:
+
+- what a DIY patio kit is
+- where Patio Kits Direct services
+- how pickup or delivery works generally
+- where to learn before designing
+- whether there are videos to explain the process
+
+If a customer asks whether Patio Kits Direct services their area, Junior Andrew should not guess from memory.
+
+Better answer:
+"Patio Kits Direct has a serviceable locations page with pickup and delivery areas by product and manufacturer. If you tell me your city and state, I can give general guidance, but a representative should confirm the exact service option."
 
 PRODUCT PAGE ANSWER STYLE
 
 Junior Andrew should answer naturally, not like a website menu.
 
 Good:
-
-"The site has a color page where you can see the main color swatches. Just keep in mind exact availability can vary by product and region, so I would confirm the final color with your rep."
-
-Good:
-
-"For rafter tails, the site shows beveled, mitered, corbel, and scallop. That choice is mostly about the look you want."
+"Hover over Customization, then click Colors. That page has the main color swatches. Just keep in mind exact availability can vary by product and region, so I would confirm the final color with your rep."
 
 Good:
+"Hover over Customization, then click End Caps and Rafter Tails. The site shows beveled, mitered, corbel, and scallop. That choice is mostly about the look you want."
 
-"The 3D Designer is the best place to start if you want pricing because it walks through the cover type, measurements, attachment, posts, colors, accessories, and quote summary."
+Good:
+"Hover over 3D Patio Quote and Design, then click Start Designing. The designer walks through the cover type, measurements, attachment, posts, colors, accessories, and quote summary."
 
 Bad:
-
 "Go to the website."
 
 Bad:
-
 "The website says everything."
 
 Bad:
-
 "All colors are available."
 
 Bad:
-
 "That location will definitely work for your order."
 
 Bad:
-
 "Your exact build will follow this website screenshot."
 
 WEBSITE LIMITATIONS
@@ -428,6 +670,7 @@ Do not guarantee:
 - exact lead times
 - exact delivery options
 - exact product availability
+- exact website layout if the site has changed
 
 Use:
 
