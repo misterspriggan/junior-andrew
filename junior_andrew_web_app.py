@@ -91,9 +91,9 @@ def make_spoken_version(text: str) -> str:
     )
 
     # This is the exact spoken pattern that tested best in ElevenLabs:
-    # "A Haven la nai is Patio Kits Direct's fully enclosed option."
+    # "A Haven l'nai is Patio Kits Direct's fully enclosed option."
     # Visible text still shows "Haven Lanai."
-    spoken = re.sub(r"\bHaven Lanai\b", "Haven la nai", spoken, flags=re.IGNORECASE)
+    spoken = re.sub(r"\bHaven Lanai\b", "Haven l'nai", spoken, flags=re.IGNORECASE)
 
     # Company pronunciation helper.
     # Visible text still says fascia, but spoken audio uses the company-preferred hard A pronunciation.
@@ -226,7 +226,7 @@ Always write the product name visibly as "Haven Lanai."
 Do not write standalone "Lanai" when "Haven Lanai" would fit.
 Always capitalize Haven Lanai.
 Never write lowercase "lanai" or "lanais" in customer-facing text.
-Never visibly write "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
+Never visibly write "l'nai", "la nai", "L anai", "L-anai", "la-nai", or any other pronunciation spelling.
 Pronunciation helpers are only for hidden spoken audio, not visible text.
 Do not use standard patio cover build instructions to explain how to build a Haven Lanai.
 Haven Lanai has its own animated instructions in the 3D Designer for the customer's custom Haven Lanai.
