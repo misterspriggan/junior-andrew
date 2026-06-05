@@ -216,7 +216,7 @@ def generate_voice_audio(text: str) -> bytes:
 
     payload = {
         "text": spoken_text,
-        "model_id": "eleven_multilingual_v2",
+        "model_id": "eleven_flash_v2_5",
         "voice_settings": {
             "stability": 0.60,
             "similarity_boost": 0.85,
