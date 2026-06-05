@@ -1,6 +1,6 @@
 CUSTOM LAYOUT AND DESIGN REFERENCE
 
-This file teaches Junior Andrew how to answer questions about custom patio layouts, pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, tiered patio covers, angled shapes, and radius/curved layouts.
+This file teaches Junior Andrew how to answer questions about custom patio layouts, pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, house-side breaks, tiered patio covers, angled cuts, odd shapes, and radius/rounded layouts.
 
 Main rule:
 Keep custom layout answers simple and calm.
@@ -14,7 +14,7 @@ Every quote is custom.
 For these layouts, say there are a couple extra steps, usually a simple drawing and a representative review.
 
 Good wording:
-"That is pretty common and usually not an issue. It just helps to send a simple drawing from above so a representative can see the layout."
+"That is pretty common and usually not an issue. It just helps to send a simple drawing from above so a representative can review the layout."
 
 Bad wording:
 "This is a complex custom layout."
@@ -23,6 +23,43 @@ Bad wording:
 "We can often work around it."
 "That becomes a problem."
 "Show the full pop-out clearly so the layout can be drawn correctly."
+
+IMPORTANT TERMINOLOGY
+
+Projection:
+Projection means how far the cover comes out from the house.
+
+For solid non-insulated covers:
+The individual roof pieces are commonly called pans or roof pans.
+
+For solid insulated covers:
+The individual roof pieces are commonly called panels or roof panels.
+
+For lattice covers:
+The structural members that project out are called rafters.
+The rafters support the lattice tubes on top.
+
+Solid covers:
+Solid means solid non-insulated or solid insulated.
+Solid covers give 100 percent shade and are closed on top.
+Solid covers cannot do a true curved or radius roof shape.
+
+Lattice covers:
+Lattice covers are open on top and have tubes.
+Lattice tubes or rafters can sometimes be cut to create a rounded or radius-style look.
+
+False rafter tails:
+Solid patio covers can have false rafter tails.
+False rafter tails are aesthetic, not structural.
+They are usually 2 inches by 6.5 inches by 12 inches.
+They stick off the front with an inside bracket to give solid covers a more traditional look.
+They are not load-bearing.
+They are not support rafters.
+
+Lattice rafters:
+Lattice rafters are structural.
+They support the lattice tubes.
+They can sometimes be doubled or spaced closer together for additional support depending on design.
 
 BIRD'S-EYE-VIEW DRAWINGS
 
@@ -46,6 +83,8 @@ Ask the customer to show only what matters for the patio layout:
 - for a pop-out, how far it pops out and how wide it is
 - for an L-shape or wall jog, how much the wall jogs out
 - different projection depths if there is a beam-side break
+- angled front corners if the customer wants an angled cut
+- odd shapes like hexagon or octagon pop-outs if applicable
 
 Do not tell customers to include every door and window unless that door or window affects the patio cover attachment or layout.
 Customers often overcomplicate drawings, so keep the request simple.
@@ -128,10 +167,13 @@ BEAM-SIDE BREAK / DIFFERENT PROJECTIONS
 
 If the break is at the beam side, that usually means there are two different projections.
 
-This can be more involved because the different projections may need to be supported separately.
+This is different from a 45-degree angled front corner.
+
+A beam-side break in an L-shape usually means one section projects farther than the other.
+That can be more involved because the different projections may need to be supported separately.
 
 General rule of thumb:
-If the beam side has the break, the patio may need two runs of posts because there are two different projections that need support.
+If the beam side has an L-shape break, the patio may need two runs of posts because there are two different projections that need support.
 
 Good answer:
 "If the break is on the beam side, that usually means there are two different projections. In many cases, that may need separate post runs so each projection is supported properly. A representative can confirm the best layout from a simple sketch."
@@ -139,13 +181,74 @@ Good answer:
 Do not say two runs of posts are always required.
 Say "often," "may," "usually," or "in many cases."
 
-ANGLED OR ODD SHAPES
+ANGLED FRONT CORNERS / 45-DEGREE CUTS
 
-Odd shapes and angled layouts may be possible.
+An angled front corner is not automatically the same thing as an L-shape with a beam-side break.
+
+If the customer says the front corner is angled, like a 45-degree cut at the beam/front side, do not assume there are two different projections.
+
+A 45-degree angled front corner often requires:
+- a dedicated run of header beam for that angled section
+- post planning
+- inside brackets
+- a shared post where the angled header meets the regular front header beam
+- site cutting
+- representative review
+
+Good answer:
+"If you mean an angled front corner, like a 45-degree cut, that is different from an L-shape with two projections. It can often be done, but it usually needs a dedicated header beam run, post planning, and inside brackets where the angled section meets the main front beam. A representative should review that layout."
+
+Do not confuse:
+- angled front corner
+with:
+- two different projections
+or:
+- beam-side L-shape break
+
+Bad:
+"That means you have two different projections."
+"You definitely need two runs of posts."
+"That is just an L-shape."
+
+CUTS ON SITE
+
+For many odd shapes, angled cuts, house-side shapes, or beam-side angles, cuts are often done on site.
+
+This may apply to:
+- beam side cuts
+- house side cuts
+- angled corners
+- pop-out cuts
+- odd shapes
+- hexagon or octagon pop-outs
+
+Good answer:
+"A lot of those cuts are typically done on site, but the kit needs to be planned correctly so the right material and attachment pieces are included."
+
+ODD SHAPES
+
+If the customer asks about an odd shape, do not assume what they mean.
+
+Ask what kind of odd shape:
+- angled corner
+- L-shape
+- chimney pop-out
+- wall jog
+- hexagon pop-out
+- octagon pop-out
+- radius or rounded edge
+- something else
+
+Good answer:
+"Possibly. What kind of odd shape do you mean, like an angled corner, L-shape, chimney pop-out, hexagon or octagon pop-out, or a rounded edge?"
+
+Hexagon or octagon pop-outs:
+These are typically possible, but they usually require cuts on site and extra hanger channel.
+
+Good answer:
+"Hexagon or octagon pop-outs are typically possible, but they usually require cuts on site and extra hanger channel, so a representative should review the sketch."
 
 For many odd shapes, the material may be ordered with enough coverage and then cut back on site into the needed shape.
-
-For those situations, the kit may need extra hanger channel or other planning to make the layout work correctly.
 
 Good answer:
 "Odd shapes can sometimes be handled by ordering the material to cover the area and cutting it back on site to the shape needed. That may require extra hanger channel in the kit, so a representative should review the sketch."
@@ -154,30 +257,82 @@ Do not promise every odd shape works.
 Do not promise exact parts.
 Do not tell the customer to cut material without a representative review.
 
-RADIUS OR CURVED PATIOS
+RADIUS OR ROUNDED PATIOS
+
+If a customer asks about radius, round, rounded edge, or curved shape, first determine whether they mean a solid cover or lattice cover.
+
+Ask:
+"Are you asking about a solid cover or a lattice cover?"
+
+SOLID COVERS AND RADIUS
 
 Solid patio covers cannot do a true radius or curved roof shape.
 
-Do not say a solid patio can be curved.
+Solid means:
+- solid non-insulated
+- solid insulated
+
+Solid covers use straight roof pans or straight roof panels.
+Solid covers are closed on top and provide 100 percent shade.
 
 Good answer:
-"A solid patio cover cannot really do a true radius shape. If you need a curved look, a representative should review the layout and explain what is realistic."
+"Solid covers cannot do a radius or curved roof shape. That applies to both solid non-insulated and solid insulated covers."
 
-Lattice covers may have more flexibility visually.
-The lattice tubes or rafters on top can sometimes be cut to give a rounded look, but this should be reviewed with a representative.
+Do not say:
+"Solid covers cannot really do it."
+"Solid covers cannot do a true radius but..."
+"Solid covers may have a little flexibility."
+"Solid covers can be curved."
+
+Use firm wording:
+"Solid covers cannot do a radius."
+
+LATTICE COVERS AND RADIUS LOOK
+
+Lattice covers are open and have tubes on top.
+
+With lattice, the tubes or rafters can sometimes be cut to create a rounded or radius-style look.
+
+How it works:
+If the tubes or rafters extend far enough past the beam, each tube or rafter can be cut a little shorter than the one next to it until it creates a rounded look.
 
 Good answer:
-"With lattice, the tubes or rafters on top can sometimes be cut to give more of a rounded look, but you would want to talk to a representative about that layout."
+"With lattice, a rounded look can sometimes be created by extending the tubes or rafters past the beam and cutting each one a little shorter than the next. A representative should review the layout to confirm what is realistic."
 
-Do not promise the lattice can always be rounded.
-Do not promise a true radius.
+Do not say:
+"It is not a true radius."
+That phrase is confusing and not helpful.
+
+Better:
+"Solid covers cannot do a radius, but lattice can sometimes be cut to create a rounded look."
+
+RAFTERS VS FALSE RAFTER TAILS
+
+Do not confuse lattice rafters with false rafter tails on solid covers.
+
+Lattice rafters:
+- are structural
+- support the lattice tubes
+- are part of the lattice cover system
+- may be doubled or spaced closer for support depending on design
+
+False rafter tails on solid covers:
+- are aesthetic only
+- are not load-bearing
+- are not structural support rafters
+- are usually 2 inches by 6.5 inches by 12 inches
+- mount with an inside bracket
+- give a more traditional rafter-tail look to solid covers
+
+Good answer:
+"On lattice covers, the rafters are structural and support the lattice tubes. On solid covers, false rafter tails are decorative pieces that can be added to the front for looks, but they are not support rafters."
 
 3D DESIGNER AND REPRESENTATIVE REVIEW
 
-For pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, odd shapes, or unusual layouts, the 3D Designer may still help, but a representative review is usually the better next step.
+For pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, odd shapes, angled cuts, radius questions, or unusual layouts, the 3D Designer may still help, but a representative review is usually the better next step.
 
 Good answer:
-"The designer can handle some layouts, but if there is a pop-out, wall jog, beam-side break, or odd shape, it is usually easiest to send a simple drawing and have a representative review it."
+"The designer can handle some layouts, but if there is a pop-out, wall jog, angled corner, beam-side break, odd shape, or radius question, it is usually easiest to send a simple drawing and have a representative review it."
 
 Avoid:
 "The designer cannot do that."
@@ -217,14 +372,14 @@ For custom layout questions, ask for:
 - length of each section
 - height if known
 - where the cover attaches
-- dimensions of pop-outs, chimneys, wall jogs, or angled sections
-- whether the break is on the house side or beam side
+- dimensions of pop-outs, chimneys, wall jogs, angled corners, or odd-shaped sections
+- whether the break is on the house side or beam side if it is an L-shape
 
 Keep it simple.
 Do not ask for every possible detail in the first answer.
 
 Good answer:
-"Send photos plus a simple drawing from above. Mark the house, the patio cover shape, the projection, the length, and the dimensions of the pop-out or break."
+"Send photos plus a simple drawing from above. Mark the house, the patio cover shape, the projection, the length, and the dimensions of the pop-out, angle, or break."
 
 WHAT NOT TO DO
 
@@ -237,7 +392,11 @@ Do not say two runs of posts are always required.
 Do not overcomplicate the first answer.
 Do not ask customers to draw every door and window unless those details affect the patio cover.
 Do not say solid patio covers can do a radius.
+Do not say solid patio covers can be curved.
+Do not say "not a true radius" when explaining lattice.
 Do not promise odd shapes without review.
+Do not confuse an angled front corner with an L-shape beam-side break.
+Do not confuse lattice rafters with solid-cover false rafter tails.
 
 VOICE-FIRST SIMPLE ANSWER STYLE
 
@@ -248,10 +407,16 @@ Good:
 "For a pop-out, just mark how far it pops out and how wide it is."
 
 Good:
-"If the beam side has the break, that usually means there are two different projections. It may need separate post runs, so a representative should review the sketch."
+"If the beam side has an L-shape break, that usually means there are two different projections. It may need separate post runs, so a representative should review the sketch."
 
 Good:
-"Odd shapes may be possible, but the material is usually cut back on site and extra hanger channel may need to be planned into the kit."
+"If you mean a 45-degree angled front corner, that is different from an L-shape. It can often be done, but it usually needs a dedicated header beam run, post planning, and inside brackets where the angled section meets the main front beam."
+
+Good:
+"Solid covers cannot do a radius. Lattice can sometimes be cut to create a rounded look."
+
+Good:
+"On solid covers, false rafter tails are decorative. On lattice covers, the rafters are structural and support the lattice tubes."
 
 Bad:
 "This requires a complex custom structural analysis."
@@ -262,10 +427,12 @@ Bad:
 "We will handle this as a custom quote."
 "Show where it starts and where it goes back in."
 "The solid patio can be curved."
+"That is not a true radius."
+"An angled front corner means two different projections."
 
 SAFE SUMMARY
 
-For pop-outs, chimneys, wall jogs, L-shapes, odd shapes, and tiered patios:
+For pop-outs, chimneys, wall jogs, L-shapes, odd shapes, angled corners, radius questions, and tiered patios:
 These are common layout situations.
 A simple sketch and photos are the best next step.
 The 3D Designer may work for some layouts.
