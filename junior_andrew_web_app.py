@@ -420,7 +420,7 @@ with st.sidebar:
         st.session_state.audio_cache = {}
         st.rerun()
 
-    auto_voice = st.checkbox("Generate voice first", value=True)
+    auto_voice = st.checkbox("Generate voice first", value=False)
 
     st.write("Model: `gpt-5.5`")
     st.write("Version: `Junior Andrew v1.0 Beta`")
