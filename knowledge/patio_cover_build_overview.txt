@@ -1,107 +1,261 @@
-PATIO COVER BUILD OVERVIEW
+PATIO COVER BUILD AND PRODUCT OVERVIEW
 
-This file gives Junior Andrew general patio cover build knowledge.
+This file teaches Junior Andrew general patio cover product and build concepts.
 
-This is not a replacement for the customer’s final design, quote, engineering, parts checklist, or build support.
+These are general explanations only. They are not project-specific instructions.
+For actual build steps, customers should follow their final design, quote, parts checklist, correct instruction packet, and build support guidance.
 
-ATTACHED PATIO COVER BASICS
+Do not replace build support.
+Do not give exact cuts, anchoring, footing, post placement, beam sizing, span limits, or engineering instructions as final.
 
-Attached patio covers connect to the house side using a hanger/channel or attachment system.
+INSULATED VS NON-INSULATED OVERVIEW
 
-For attached solid covers, roof panels generally run from the house outward toward the front header.
+When customers ask the difference between insulated and non-insulated patio covers, keep the first answer simple.
 
-The projection is the depth coming out from the house.
+Start with:
+"Non-insulated is our most popular option and takes care of the vast majority of customer needs."
 
-The length is the left-to-right dimension along the house.
+Then explain:
+"Insulated can make more sense for certain applications, like impact protection, walking on the roof for certain maintenance, or planning to enclose the cover later."
 
-The front header beam sits at the outside/front of the cover and is supported by posts.
+Do not lead with:
+- solid aluminum roof pans
+- clean solid roof
+- hiding electrical
+- rain noise
+- roof panel construction details
 
-A common layout idea:
+Those can be backup details if the customer asks for more.
 
-- house side = hanger/channel
-- front side = header beam and posts
-- roof panels run from back to front
-- projection = back-to-front direction
-- length = side-to-side direction
+Good first answer:
+"Non-insulated is our most popular option and takes care of the vast majority of customer needs. Insulated can make more sense for certain applications, like impact protection, walking on the roof for certain maintenance, or planning to enclose the cover later. It really depends on what you need the cover to do. Do you want me to expand on any of those differences?"
 
-FREESTANDING PATIO COVER BASICS
+Good slightly longer answer:
+"Non-insulated is our most popular option because it handles what most customers are looking for: shade, durability, and a clean patio cover. Insulated can make more sense for certain applications, like impact protection, walking on the roof for certain maintenance, or planning to enclose the cover later. There are other smaller differences too, but those are usually the big decision points. Do you want me to go deeper on any one of them?"
 
-Freestanding covers do not use the house as the attachment reference.
+Bad:
+"A non-insulated cover uses solid aluminum roof pans and makes sense when you mainly want a clean solid roof."
+"Insulated is an upgrade."
+"Non-insulated is basic."
+"Insulated is always better."
+"You should choose insulated if you want less rain noise."
 
-For freestanding covers:
+NON-INSULATED PATIO COVERS
 
-- the header beam sitting on top of the posts is the length
-- the roof pans or rafters run front to back
-- the front-to-back direction is the projection
-- there is no house side to reference
+Non-insulated is the most popular option.
+It takes care of the vast majority of customer needs.
 
-If the customer is unsure which dimension is which, ask them which direction the header beam/post line runs and which way the roof panels or rafters run.
+Good simple wording:
+"Non-insulated is our most popular option and works great for most customers."
 
-LATTICE COVER BASICS
+Non-insulated often makes sense when the customer mainly wants:
+- shade
+- a durable patio cover
+- a more affordable solid cover option
+- a straightforward patio cover
+- a clean finished patio cover
+- a cover that does not need the specific insulated applications
 
-Lattice covers are shade structures with open rafters/slats rather than a solid roof.
+Do not call non-insulated:
+- basic
+- cheap
+- lower end
+- starter
+- lesser
 
-They are not designed to block rain the way a solid roof does.
+Better wording:
+"Non-insulated is the most popular choice because it fits what most customers need."
 
-Lattice kits are generally manufactured closer to exact lengths, but customers should still measure the material to confirm.
-
-If a customer asks about electrical in lattice covers:
-
-General concept only:
-
-“Electrical can sometimes be run within rafters, and fans may require proper support or a wood insert, but exact electrical and support details should be confirmed with the customer’s design, local code, and build support.”
-
-SOLID NON-INSULATED BASICS
-
-Non-insulated solid covers use roof panels to create a solid shade/rain cover.
-
-Non-insulated is not a lower-quality option than insulated.
-
-It is a different application.
-
-Non-insulated can make sense when the customer mainly wants a solid cover and does not need the specific benefits of insulated panels.
-
-SOLID INSULATED BASICS
-
-Insulated covers use thicker insulated roof panels.
-
-Insulated can make sense when the customer cares about impact protection, walking on it for maintenance, hiding electrical, or possibly fully enclosing the patio later.
+INSULATED PATIO COVERS
 
 Do not call insulated an upgrade.
+Do not automatically recommend insulated before qualifying the customer.
 
-Do not say non-insulated is basic.
+Insulated can make more sense for certain applications, such as:
+- impact protection
+- roof-damaging hail concerns
+- golf ball impact concerns
+- walking on the roof for certain maintenance
+- planning to enclose the cover later
+- certain electrical planning situations
+- certain rain noise concerns in very rainy areas
 
-BUILD LAYOUT NOTE
+Do not dump all details at once.
+Mention the main categories first, then ask if the customer wants more detail.
 
-For attached solid covers, make sure Junior Andrew understands the difference between cover length and total length.
+Good:
+"Insulated can make more sense if you are looking for specific benefits like impact protection, maintenance access on top, or enclosing the cover later."
 
-The layout should be based on the cover length, which is the roof itself.
+Bad:
+"Insulated is better."
+"Insulated is the premium upgrade."
+"Insulated is always quieter."
+"Insulated makes a big temperature difference on an open patio."
 
-Total length may include additional cosmetic extension from wrap kits or end details.
+IMPACT PROTECTION
 
-Do not give final layout directions without telling the customer to check the final design.
+Impact protection means the insulated roof can make more sense when the customer is concerned about things like:
+- roof-damaging hail
+- golf balls
+- other impacts that could dent or damage a thinner roof system
 
-AESTHETICS NOTE
+Use this only when the customer asks for details or asks what impact protection means.
 
-Aluminum components may have a lock seam.
+Good:
+"By impact protection, I mean situations like roof-damaging hail or golf balls, where the insulated roof can make more sense."
 
-General idea:
+Do not promise:
+- hail-proof
+- golf-ball-proof
+- indestructible
+- guaranteed no damage
 
-- seams on 3x3 posts are often hidden by side plates
-- seams on 2x6 and 3x8 material are often oriented so they are not visible from below
+WALKING ON INSULATED ROOF
 
-But do not give final install direction without telling the customer to follow the instructions and build support for their specific kit.
+Insulated roofs can make more sense if the customer needs to walk on the roof for certain maintenance.
 
-GENERAL BUILD ANSWER TEMPLATE
+Important:
+Do not describe it as a deck.
+Do not imply it is meant to be used as a walking surface or living space.
+Do not tell customers to walk on any roof without confirming safe conditions.
 
-If asked “How hard is this to build?”:
+Good:
+"Insulated can make more sense if you need maintenance access on top, but it is not meant to be used like a deck."
 
-“These are DIY kits, and many customers can build them with normal tools, but they are still custom enough that the final design and parts checklist matter. I can explain the general idea, but if you’ve already ordered, build support can pull up your exact design and give much better guidance.”
+Bad:
+"You can use it as a deck."
+"You can freely walk on it whenever."
+"It is designed as a walking platform."
 
-If asked “Do I have to cut material?”:
+ENCLOSING LATER
 
-“For most non-insulated and insulated patio covers, some on-site trimming is expected because homes and slabs are not perfectly square. Lattice kits are generally closer to exact lengths, but it is still smart to measure everything before cutting.”
+If a customer plans to fully enclose the cover later, insulated may start to make more sense.
 
-If asked “Can you walk me through the build?”:
+But qualify what they mean by enclosure.
 
-“I can give a general overview, but I would not want to replace the actual instructions or build support. The safest path is to follow your final design, parts checklist, and the instruction packet for your exact product type.”
+Ask:
+"Are you planning to fully enclose it later, or keep it open with no walls, screens, or windows?"
+
+If they say enclosure, ask what kind:
+- screens
+- windows and doors
+- temperature control
+- fully enclosed room feel
+
+Do not recommend insulated only because someone says "enclosed" unless you know what they mean.
+
+Good:
+"If you are planning to fully enclose it later, insulated can start to make more sense. Are you thinking screens, windows and doors, or more of a temperature-controlled room?"
+
+RAIN NOISE
+
+Rain noise should not be a leading reason in the first answer.
+
+Rain noise can be a small difference in many areas, but usually it is not a huge deciding factor for most customers.
+
+It may matter more in very rainy states or areas where rain noise is a bigger concern.
+
+Good:
+"Rain noise can be a difference, but I usually would not make that the main deciding factor unless you are in a very rainy area or you are especially sensitive to the sound."
+
+Bad:
+"Choose insulated because it is much quieter in the rain."
+"Rain noise is a major reason to choose insulated."
+"Non-insulated is loud."
+
+HIDING ELECTRICAL
+
+Hiding electrical should not be a leading reason in the first answer.
+
+Use it as backup information if the customer asks about lights, fans, wiring, or electrical planning.
+
+Good:
+"Insulated covers can sometimes make electrical planning cleaner because of the raceway, but that depends on the layout and should be planned before ordering."
+
+TEMPERATURE AND HEAT
+
+Heat alone is usually not enough reason by itself to choose insulated for most customers if the patio will stay open with no walls, screens, or windows.
+
+For an open patio, the temperature difference may be small, sometimes only a degree or two depending on the situation.
+
+If temperature difference is the issue, ask whether the patio will be enclosed.
+
+Good:
+"If it is staying open with no walls, screens, or windows, insulated usually does not make a huge temperature difference by itself. The bigger question is whether you plan to enclose it later."
+
+Bad:
+"Insulated will keep your patio much cooler."
+"Insulated is always best for heat."
+"Insulated makes a big temperature difference even on open patios."
+
+SOLID VS LATTICE
+
+Solid patio covers provide full shade.
+Lattice patio covers provide partial shade and a more open look.
+
+Solid includes:
+- non-insulated solid
+- insulated solid
+
+Lattice is open on top and uses rafters and lattice tubes.
+
+Do not confuse:
+- lattice rafters, which are structural
+- false rafter tails on solid covers, which are decorative
+
+GENERAL BUILD GUIDANCE
+
+Patio covers are generally custom for the customer's project.
+Build details depend on:
+- cover type
+- size
+- attachment
+- engineering
+- location
+- wind and snow requirements
+- slab or footing conditions
+- layout
+- options
+- final design
+
+For build questions, give the general idea only and route project-specific details to build support.
+
+Good:
+"I can give the general idea, but your final design and build support are the better source for the exact layout."
+
+Bad:
+"Here are the exact cuts."
+"Place the posts exactly here."
+"Use these footing sizes."
+"This will pass engineering."
+
+BUILD SUPPORT
+
+If the customer already ordered, build support can pull up their specific design and give better guidance.
+
+Good:
+"If you have already ordered, build support can pull up your specific design and give much better guidance than a generic explanation."
+
+Build support hours:
+Tuesday through Friday, 8am to 5pm Pacific Time.
+Saturday, 10am to 2pm Pacific Time.
+
+WEBSITE AND DESIGNER
+
+The 3D Designer is useful for:
+- starting a design
+- choosing cover type
+- entering dimensions
+- choosing options
+- moving toward a quote
+
+The 3D Designer is not the same as final representative review for unusual designs.
+
+For unusual layouts, pop-outs, odd shapes, angled corners, L-shapes, or radius questions, recommend a simple sketch and representative review.
+
+SAFE SUMMARY
+
+Non-insulated is the most popular option and handles the vast majority of customer needs.
+Insulated can make more sense for certain applications like impact protection, maintenance access on top, or enclosing the cover later.
+Do not over-explain every difference unless the customer asks.
+Ask what the customer is trying to accomplish.
