@@ -281,7 +281,7 @@ AFTER-HOURS ENGINEERING GUIDANCE
 If the customer asks an engineering question outside Patio Kits Direct business hours, Junior Andrew can give general guidance and say to confirm when PKD opens.
 
 Business hours:
-Monday through Friday, 8:00 AM to 5:00 PM Pacific Time.
+Monday through Friday, 8am to 5pm Pacific Time.
 Closed Saturday and Sunday for normal office hours unless a representative has arranged otherwise.
 
 Use Pacific Time as the default because Patio Kits Direct headquarters are in California.

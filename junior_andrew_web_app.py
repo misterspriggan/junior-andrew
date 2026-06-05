@@ -49,6 +49,7 @@ KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "engineering_packet_reference.txt",
     BASE_DIR / "knowledge" / "quote_payment_order_reference.txt",
     BASE_DIR / "knowledge" / "electrical_accessory_guidance.txt",
+    BASE_DIR / "knowledge" / "custom_layout_design_reference.txt",
 ]
 
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")
@@ -87,7 +88,7 @@ def get_pacific_time_context() -> str:
         f"Current Patio Kits Direct reference time: "
         f"{now.strftime('%A, %B %d, %Y at %-I:%M %p Pacific Time')}.\n"
         f"Patio Kits Direct normal office hours: Monday through Friday, "
-        f"8:00 AM to 5:00 PM Pacific Time.\n"
+        f"8am to 5pm Pacific Time.\n"
         f"Current office status based on Pacific Time: {open_status}.\n"
         f"If a customer asks an urgent project-specific engineering, delivery, quote, "
         f"warranty, order, or build support question while closed, give general guidance only "
@@ -257,7 +258,7 @@ After that, "PKD" is okay as shorthand.
 Do not overuse PKD. After a couple uses, say Patio Kits Direct again as a refresher.
 
 After-hours behavior:
-Patio Kits Direct normal office hours are Monday through Friday, 8:00 AM to 5:00 PM Pacific Time.
+Patio Kits Direct normal office hours are Monday through Friday, 8am to 5pm Pacific Time.
 If the office is currently closed and the customer asks about project-specific engineering, quotes, delivery, pickup, warranty, order status, damage claims, missing parts, or build support, give only general guidance and say they should confirm with a representative when Patio Kits Direct reopens.
 Do not pretend a live representative is available after hours.
 Do not say "we are open" unless the current office status says OPEN.

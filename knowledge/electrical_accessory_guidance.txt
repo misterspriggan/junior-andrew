@@ -1,6 +1,6 @@
 ELECTRICAL, LIGHTING, FAN, OUTLET, SWITCH, AND ACCESSORY GUIDANCE
 
-This file teaches Junior Andrew how to answer questions about electrical work, ceiling fans, lights, outlets, switches, fan beams, raceways, and accessories.
+This file teaches Junior Andrew how to answer questions about electrical work, ceiling fans, lights, outlets, switches, fan beams, raceways, bays, rows, and accessories.
 
 Main rule:
 Do not automatically say an electrician must handle the electrical side.
@@ -49,6 +49,40 @@ Do not say:
 "We sell multiple light options" unless confirmed.
 Use singular wording like "the current light" or "the light PKD currently carries" because PKD usually sells one light type at a time.
 
+BAY AND ROW TERMINOLOGY
+
+For Patio Kits Direct wording, "bay" and "row" can mean the same thing in this lighting and fan context.
+
+A bay/row is the line of electrical accessories arranged front-to-back along the projection.
+
+Use customer-friendly wording:
+"bay"
+"row"
+"light bay"
+"fan bay"
+
+A light bay can commonly be:
+- 1 light bay
+- 2 light bay
+- 3 light bay
+
+A fan bay usually means the fan is the main item in that bay.
+
+If the projection is not deep enough for a 3-light bay, then a fan by itself is often enough for that bay.
+
+If the projection is deep enough where a 3-light bay would make sense, then a common fan bay layout can be:
+- one light in front
+- one fan centered
+- one light behind
+
+This is basically the same front-to-back spacing logic as a 3-light bay, but the center light is replaced by a fan.
+
+Good wording:
+"If the projection is deep enough for a 3-light bay, a common fan bay is one light in front, the fan centered, and one light behind it. If the projection is not deep enough for that, then the fan by itself is often fine for that bay."
+
+Do not say the fan always needs one light in front and one light behind it.
+That only makes sense when the projection is deep enough.
+
 CEILING FANS
 
 If a customer wants a ceiling fan, make sure the support is planned before ordering.
@@ -61,6 +95,7 @@ Do not say:
 "Every panel automatically supports a fan."
 "An electrician must do it."
 "PKD sells the fan."
+"A fan bay always needs lights in front and behind it."
 
 LIGHTS
 
@@ -81,69 +116,68 @@ Do not invent:
 - brand
 - exact specs
 
-LIGHTING ROWS VS LIGHTS PER ROW
+LIGHTING ROWS / BAYS BY LENGTH
 
-Do not treat "one row of lights every 10 feet" as the whole answer.
-
-There are two separate ideas:
-
-1. Rows along the patio length.
-2. Number of lights in each row from front to back.
-
-A decent general starting point:
-For proper lighting, a row of lights about every 10 feet of patio length seems to work for most people, but it is not a hard rule.
+For proper lighting, a row or bay of lights about every 10 feet of patio length seems to work for most people, but it is not a hard rule.
 
 But aesthetics and symmetry matter too.
-Many customers like a fan centered in a bay/row, with lights arranged around it.
+Many customers plan around fans and symmetry, not just light output.
 
 Good answer:
-"For lighting only, a row about every 10 feet of length is a decent starting point. But for aesthetics, many people also plan around fans and symmetry, not just light output."
-
-LIGHTS PER ROW / PER BAY
-
-A single row or bay can commonly have:
-- 1 light
-- 2 lights
-- 3 lights
-- 2 lights and 1 fan
-
-A common fan layout:
-2 lights and 1 fan in a single row/bay, with the fan in the center and one light in front of the fan and one light behind the fan from front to back.
-
-This is not a hard rule. It depends on projection, furniture, fan placement, brightness preference, and what looks good.
-
-Projection guidance:
-- Small projection, around 8 feet or less: 1 light in a bay can be fine.
-- Smaller to moderate projection, around 11 or 12 feet or less: 2 lights per bay is common.
-- Larger projection, around 13 feet or more: 3 lights in a bay is totally normal.
-- If adding a fan, 2 lights plus 1 centered fan in that bay is common.
-
-Good answer:
-"If the projection is around 8 feet or less, one light in a bay can be fine. Around 11 or 12 feet or less, two lights per bay is common. Around 13 feet or more, three lights in a bay is normal. If you are adding a fan, a common layout is the fan centered with one light in front and one light behind it."
-
-Do not make these hard rules.
-Use "common," "typical," "decent starting point," "many people," and "depends on what looks good."
-
-ROWS BY LENGTH / SYMMETRY
+"For lighting only, a bay about every 10 feet of length is a decent starting point. But for aesthetics, many people also plan around fan placement and symmetry."
 
 For patio length:
-- One row may work for smaller lengths depending on layout.
-- Two rows may be enough for lighting on many covers around 20 feet, but it may not be the best-looking layout if a centered fan is desired.
-- Three rows are common for symmetry on many patios from about 18 feet to 35 feet.
-- At around 36 feet or longer, more rows can make sense, but it depends on layout and preference.
+- One bay may work for smaller lengths depending on layout.
+- Two bays may be enough for lighting on many covers around 20 feet, but it may not be the best-looking layout if a centered fan is desired.
+- Three bays are common for symmetry on many patios from about 18 feet to 35 feet.
+- At around 36 feet or longer, more bays can make sense, but it depends on layout and preference.
 
 Important:
 For a 20-foot patio, do not simply say "2 rows is a good starting point" without mentioning fan/symmetry.
 That is only half the story.
 
 Better answer for a 20-foot patio:
-"For lighting only, two rows can often work on a 20-foot cover. But for aesthetics, a lot of people like three rows so they can center a fan or keep the layout symmetrical. It depends on whether you care more about simple lighting or the overall look."
+"For lighting only, two bays can often work on a 20-foot cover. But for aesthetics, a lot of people like three bays so the layout feels more balanced or so a fan can land nicely in the middle. It depends on whether you care more about simple lighting or the overall look."
 
 Good answer for 18 to 35 foot lengths:
-"Three rows are pretty common in that 18 to 35 foot range because it often looks more balanced, especially if you want a fan centered in the layout."
+"Three bays are pretty common in that 18 to 35 foot range because it often looks more balanced, especially if you want a fan centered in the layout."
 
 Good answer for 36 feet or longer:
-"Once you get into 36 feet or longer, more rows can make sense, but it really comes down to the layout, fan locations, and what looks good to you."
+"Once you get into 36 feet or longer, more bays can make sense, but it really comes down to the layout, fan locations, and what looks good to you."
+
+LIGHTS PER BAY BY PROJECTION
+
+A light bay can commonly have:
+- 1 light
+- 2 lights
+- 3 lights
+
+Projection guidance:
+- Small projection, around 8 feet or less: 1 light in a bay can be fine.
+- Smaller to moderate projection, around 11 or 12 feet or less: 2 lights per bay is common.
+- Larger projection, around 13 feet or more: 3 lights in a bay is totally normal.
+
+Good answer:
+"If the projection is around 8 feet or less, one light in a bay can be fine. Around 11 or 12 feet or less, two lights per bay is common. Around 13 feet or more, three lights in a bay is normal."
+
+Do not make these hard rules.
+Use "common," "typical," "decent starting point," "many people," and "depends on what looks good."
+
+FAN BAY BY PROJECTION
+
+A fan bay means the bay is planned around a fan instead of just lights.
+
+If projection is smaller:
+- If the projection is not deep enough for a 3-light bay, then just a fan in that bay can be fine.
+
+If projection is larger:
+- If the projection is deep enough where a 3-light bay would normally make sense, a common fan bay is one light in front, one fan centered, and one light behind the fan from front to back.
+
+Good answer:
+"If the projection is not deep enough for a 3-light bay, a fan by itself is usually fine for that bay. If the projection is deep enough for a 3-light bay, a common fan bay is one light in front, the fan centered, and one light behind it."
+
+Do not automatically recommend lights in front and behind every fan.
+That is for deeper projections.
 
 LIGHTING EXAMPLE ANSWERS
 
@@ -151,25 +185,25 @@ Customer:
 "How many lights for a 20 foot patio?"
 
 Good:
-"For lighting only, a row about every 10 feet of length usually works for most people, so two rows can be a decent starting point. But for aesthetics, many people would consider three rows on a 20-foot cover so the layout feels more balanced or so a fan can land nicely in the middle. Then the number of lights in each row depends more on the projection."
+"For lighting only, a bay about every 10 feet of length usually works for most people, so two bays can be a decent starting point. But for aesthetics, many people would consider three bays on a 20-foot cover so the layout feels more balanced or so a fan can land nicely in the middle. Then the number of lights in each bay depends more on the projection."
 
 Customer:
 "My cover is 12 by 20. How many lights?"
 
 Good:
-"Assuming 12 feet is the projection and 20 feet is the length, two or three rows could make sense along the 20-foot length. For the 12-foot projection, two lights per row is common, or two lights with a fan centered between them if you want a fan. If you care mostly about symmetry, three rows often looks better than two."
+"Assuming 12 feet is the projection and 20 feet is the length, two or three bays could make sense along the 20-foot length. For the 12-foot projection, two lights per light bay is common. If you want a fan, a fan bay may be just the fan, or if you want a fuller layout, you could do one light in front, the fan centered, and one light behind it. It depends on the look you want."
 
 Customer:
 "My cover is 8 by 16. How many lights?"
 
 Good:
-"With an 8-foot projection, one light per bay may be enough depending on how bright you want it. Along a 16-foot length, two rows could work, but the final layout depends on whether you want a fan and how symmetrical you want it to look."
+"With an 8-foot projection, one light per light bay can be fine depending on how bright you want it. Along a 16-foot length, two bays could work, but the final layout depends on whether you want a fan and how symmetrical you want it to look."
 
 Customer:
 "My cover is 14 by 24 and I want fans."
 
 Good:
-"With a 14-foot projection, three lights in a bay is normal, or you could do a fan centered with lights in front and behind it. Along 24 feet of length, three rows is a common-looking layout for symmetry, but it depends on how many fans you want and where the furniture will be."
+"With a 14-foot projection, three lights in a light bay is normal. For a fan bay, a common layout is one light in front, the fan centered, and one light behind it. Along 24 feet of length, three bays is a common-looking layout for symmetry, but the exact layout depends on how many fans you want and where the furniture will be."
 
 DIMMABLE LIGHTS
 
@@ -221,6 +255,37 @@ Do not say:
 Better:
 "Other sizes can still work, but divisible-by-4 lengths are often cleaner for insulated covers."
 
+ODD VS EVEN INSULATED PANEL COUNTS FOR CENTERED ELECTRICAL
+
+This is important for insulated covers:
+
+Insulated panels are generally 4 feet wide.
+The fan support beam and light raceway are generally in the middle of the 4-foot panel.
+
+If the insulated cover length creates an odd number of 4-foot panels, the electrical can often land naturally in the middle.
+
+Examples:
+- 12-foot length = 3 panels, odd number
+- 20-foot length = 5 panels, odd number
+- 28-foot length = 7 panels, odd number
+
+If the insulated cover length creates an even number of 4-foot panels, the electrical may not naturally land in the exact center.
+
+Examples:
+- 16-foot length = 4 panels, even number
+- 24-foot length = 6 panels, even number
+- 32-foot length = 8 panels, even number
+
+When there is an even number of panels and the customer wants a light or fan exactly centered, it may require extra cutting or special planning on site, if it can be centered in that situation.
+
+Good answer:
+"On insulated covers, the electrical raceway and fan support are usually centered in each 4-foot panel. If you have an odd number of panels, it is easier for one to land naturally in the center. If you have an even number of panels, the center point may fall between panels, so centered electrical can require extra planning or cutting."
+
+For specifics on insulated covers with an even number of panels where the customer wants a light or fan centered, recommend talking to a representative for that specific layout.
+
+Good answer:
+"If you have an even number of insulated panels and want the light or fan exactly centered, that is worth reviewing with a representative for your specific layout."
+
 INSULATED PANEL FAN BEAM AND LIGHT RACEWAY
 
 On insulated patio covers, the manufacturer places the fan support beam and raceway for light wiring in the middle of the 4-foot insulated panel.
@@ -249,12 +314,13 @@ For insulated covers:
 - It can make the build easier.
 - It can sometimes be better value.
 - It can also help with cleaner fan and light spacing because the fan beam and light raceway are tied to the 4-foot panel layout.
+- If centered electrical is important, an odd number of panels may be better because it can help the electrical land naturally in the middle.
 
 For non-insulated covers:
 Do not apply the same 4-foot insulated panel logic automatically.
 
 Good answer:
-"The covers are still custom, but if you are looking at insulated, a length divisible by 4 can be a cleaner layout because the insulated panels are generally 4 feet wide."
+"The covers are still custom, but if you are looking at insulated, a length divisible by 4 can be a cleaner layout because the insulated panels are generally 4 feet wide. If you want a centered fan or centered light, an odd number of panels can sometimes help the electrical land more naturally in the middle."
 
 ELECTRICIAN WORDING
 
@@ -281,6 +347,8 @@ Bad:
 "Every light can go anywhere without planning."
 "PKD sells fans."
 "You can buy fans from PKD."
+"A fan bay always needs lights in front and behind it."
+"An even number of panels can always be centered easily."
 
 Safe summary:
 "Electrical can be DIY for some customers, but it still needs to follow local code, product instructions, and any permit requirements. Fans, lights, outlets, and switches are possible, but they should be planned into the design."
