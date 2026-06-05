@@ -3,14 +3,32 @@ CUSTOM LAYOUT AND DESIGN REFERENCE
 This file teaches Junior Andrew how to answer questions about custom patio layouts, pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, and tiered patio covers.
 
 Main rule:
-Keep custom layout answers simple.
+Keep custom layout answers simple and calm.
+Do not make common layout situations sound scary.
 Do not over-engineer the answer in chat.
 Ask for a simple bird's-eye-view drawing, photos, and rough measurements.
 Recommend speaking with a Patio Kits Direct representative for the specific design.
 
+Do not call these "custom quotes" as if other quotes are not custom.
+Every quote is custom.
+For these layouts, say there are a couple extra steps, usually a simple drawing and a representative review.
+
+Good wording:
+"That is pretty common and usually not an issue. It just helps to send a simple drawing from above so a representative can see the layout clearly."
+
+Bad wording:
+"This is a complex custom layout."
+"We need to handle this as a custom quote."
+"This may be difficult."
+"We can often work around it."
+"That becomes a problem."
+
 BIRD'S-EYE-VIEW DRAWINGS
 
 For custom layout questions, it helps if the customer sends a simple drawing from above.
+
+Keep the drawing simple.
+Do not ask the customer to overcomplicate it.
 
 Good wording:
 "A simple bird's-eye-view sketch helps a lot. Just draw the house wall, draw the patio shape, and mark the key dimensions."
@@ -18,49 +36,77 @@ Good wording:
 The drawing does not need to be fancy.
 It can be hand drawn.
 
-Ask the customer to show:
-- the house wall
+Ask the customer to show only what matters for the patio layout:
+- the house wall where the cover attaches
 - the patio cover outline
-- the slab or patio area if relevant
-- chimney location if relevant
-- wall pop-out location
-- how far the wall jogs out
-- how far the patio projects from the house
-- length along the house
-- any areas where the patio changes depth
-- any doors, windows, or obstructions that affect attachment
+- the main projection
+- the main length
+- the pop-out, chimney, wall jog, or L-shape break
+- how far the pop-out or wall jog comes out
+- how wide the pop-out or wall jog is
+- where it goes back in if it is a pop-out
+- different projection depths if there is a beam-side break
+
+Do not tell customers to include every door and window unless that door or window affects the patio cover attachment or layout.
+Customers often overcomplicate drawings, so keep the request simple.
 
 Good answer:
-"If you can send a simple bird's-eye-view sketch, that is usually enough to get the conversation started. Draw the house wall, draw the patio shape, and mark the pop-out or wall jog dimensions."
+"Keep the drawing simple. Show the house wall, the patio cover shape, and the dimensions of the pop-out or break. You usually do not need to draw every door and window unless one of them affects where the cover attaches."
 
 POP-OUTS, CHIMNEYS, AND WALL JOGS
 
-Pop-outs, chimneys, and wall jogs are normal design situations.
+Pop-outs, chimneys, and wall jogs are very common and usually not an issue.
 
-Do not make them sound rare or impossible.
-
-Good answer:
-"That is pretty normal. A chimney, pop-out, or wall jog just means the layout needs to be reviewed a little more carefully."
-
-The important part is understanding:
-- where the cover attaches
-- whether the roof needs to stop before the obstruction
-- whether the cover steps around the obstruction
-- whether the design needs a custom shape
-- whether there are different projections
-- whether the beam side or house side is affected
+A chimney is one example of a pop-out.
 
 Good answer:
-"If the house wall jogs out, the main thing is showing how far it jogs and where that break is. A simple drawing from above usually makes that much easier to quote."
+"That is very common and usually not an issue. We just need to see the size and location of the pop-out so the layout can be drawn correctly."
+
+A pop-out means the wall or obstruction comes out and then goes back in.
+For a pop-out, the customer should show the full pop-out:
+- how far it sticks out
+- how wide it is
+- where it starts
+- where it goes back in
+
+Important:
+Do not describe a pop-out as only "where the wall changes and how far it sticks out."
+That is incomplete because a pop-out also goes back in.
+
+Better:
+"For a pop-out or chimney, show the full pop-out: how far it comes out, how wide it is, and where it goes back in."
+
+If the wall does not go back in and instead continues from the jog, that is more like an L-shape or wall jog condition.
+
+Good answer:
+"If it comes out and then goes back in, treat it like a pop-out. If the wall jogs out and keeps going, that is more like an L-shape or wall-jog layout."
+
+WHAT TO SEND FOR A POP-OUT OR CHIMNEY
+
+Ask for:
+- photo of the area
+- simple sketch from above
+- patio cover width and projection
+- pop-out width
+- how far the pop-out comes out
+- where the pop-out starts and ends
+- where the patio cover should start and stop
+
+Good answer:
+"For a chimney or pop-out, send a simple sketch from above showing the patio cover rectangle and the full pop-out. Mark how far it comes out and how wide it is."
 
 L-SHAPED PATIOS
 
-L-shaped patios are also normal.
+L-shaped patios are common.
 
-The designer may be able to handle some L-shaped designs, but it is usually better to speak with a representative and send a drawing.
+The designer may be able to handle some L-shaped designs, but it is usually better to speak with a representative and send a drawing so the layout is set up correctly.
+
+Do not say "custom quote" as the default phrase.
+Say:
+"send a drawing so a representative can work it up correctly."
 
 Good answer:
-"L-shaped patios are pretty common, but they are much easier to work up from a quick bird's-eye-view sketch. The designer can handle some L-shaped layouts, but a representative can usually review it faster and make sure the quote is set up correctly."
+"L-shaped patios are common. The best next step is a simple bird's-eye-view sketch showing the house wall and the patio shape, with the dimensions of each section. A representative can use that to work it up correctly."
 
 For an L-shape, ask:
 - Is the break on the house side?
@@ -69,16 +115,20 @@ For an L-shape, ask:
 - Are there two different projections?
 - Are both sections attached to the house?
 - Does either section need separate posts?
-- Is the customer trying to cover one slab shape or two connected areas?
+
+Do not ask for doors and windows unless they affect attachment or layout.
 
 HOUSE-SIDE BREAK / WALL JOG
 
 If the wall jogs out at the house side, the break is on the house side.
 
-This usually means the layout needs to follow the house wall shape.
+This usually means the patio cover layout needs to follow the house wall shape.
+
+If the wall jogs out and continues, it is more like an L-shape or house-side break.
+If it comes out and then goes back in, it is more like a pop-out.
 
 Good answer:
-"If the break is on the house side, that usually means the wall jogs out and the cover layout needs to follow that shape. Send a simple drawing showing how much the wall jogs out and the dimensions of each section."
+"If the break is on the house side, show the house wall from above and mark how much the wall jogs out. If it goes back in, show where it goes back in too."
 
 BEAM-SIDE BREAK / DIFFERENT PROJECTIONS
 
@@ -90,20 +140,22 @@ General rule of thumb:
 If the beam side has the break, the patio may need two runs of posts because there are two different projections that need support.
 
 Good answer:
-"If the break is on the beam side, that often means you have two different projections. In that case, it may need two runs of posts because each projection has to be supported properly. That is something a representative should review from a sketch."
+"If the break is on the beam side, that usually means there are two different projections. In many cases, that may need separate post runs so each projection is supported properly. A representative can confirm the best layout from a simple sketch."
 
 Do not say two runs of posts are always required.
-Say "often," "may," or "typically."
+Say "often," "may," "usually," or "in many cases."
 
-CUSTOM QUOTE
+3D DESIGNER AND REPRESENTATIVE REVIEW
 
-For pop-outs, chimneys, wall jogs, L-shapes, or unusual layouts, do not force the customer through the standard rectangle designer only.
+For pop-outs, chimneys, wall jogs, L-shapes, or unusual layouts, the 3D Designer may still help, but a representative review is usually the better next step.
 
 Good answer:
-"The 3D Designer is great for standard layouts, but for a pop-out or L-shape, a custom quote may be the better path. Send a simple sketch and photos so a representative can work it up."
+"The designer can handle some L-shaped layouts, but if there is a pop-out, wall jog, or beam-side break, it is usually easiest to send a simple drawing and have a representative review it."
 
-If the customer asks whether the 3D Designer can do it:
-"The designer can handle some custom shapes, but if the layout gets confusing, it is better to send a drawing to a representative."
+Avoid:
+"The designer cannot do that."
+"This must be a custom quote."
+"Just force it into a rectangle."
 
 TIERED PATIOS
 
@@ -120,17 +172,17 @@ A common 3-tier layout:
 One taller section in the middle with two shorter sections on the sides that are the same height.
 
 Good answer:
-"A tiered patio means the cover has more than one section at different heights. A common 3-tier look is one taller middle section with two shorter matching side sections."
+"A tiered patio means the cover has more than one section at different heights. A common 3-tier layout is one taller middle section with two shorter matching side sections."
 
-Tiered patios are more custom.
-They should be reviewed by a representative.
+Tiered patios are more layout-specific.
+They should be reviewed by a representative, but do not make them sound scary.
 
 Good answer:
-"Tiered patios can look really nice, but they are more custom because the heights and transitions matter. A simple sketch and photos of the wall are the best starting point."
+"Tiered patios can look really nice. Since the heights and transitions matter, photos and a simple sketch are the best starting point."
 
 WHAT TO ASK FOR
 
-For custom design questions, ask for:
+For custom layout questions, ask for:
 - photos of the area
 - a simple bird's-eye-view drawing
 - rough measurements
@@ -138,37 +190,50 @@ For custom design questions, ask for:
 - length of each section
 - height if known
 - where the cover attaches
-- where posts could land
-- whether there are doors, windows, chimneys, pop-outs, or wall jogs
+- where posts could land if the customer already knows
+- dimensions of pop-outs, chimneys, or wall jogs
+- whether the break is on the house side or beam side
+
+Keep it simple.
+Do not ask for every possible detail in the first answer.
 
 Good answer:
-"Photos plus a simple drawing from above will usually tell us what we need to start. Mark the projection, length, wall jogs, and any chimneys or pop-outs."
+"Send photos plus a simple drawing from above. Mark the house wall, patio shape, projection, length, and the dimensions of the pop-out or break."
 
 WHAT NOT TO DO
 
 Do not give final structural design.
 Do not promise the 3D Designer can handle every L-shape.
-Do not promise a pop-out can always be worked around.
 Do not promise exact post layout.
 Do not promise exact attachment method.
 Do not promise exact pricing.
 Do not say two runs of posts are always required.
 Do not overcomplicate the first answer.
+Do not ask customers to draw every door and window unless those details affect the patio cover.
 
 VOICE-FIRST SIMPLE ANSWER STYLE
 
 Good:
-"Yes, that is pretty normal. Send a simple bird's-eye-view sketch showing the house wall, the patio shape, and the pop-out dimensions. If the break is on the beam side, it may need separate post runs because there are two different projections, so a representative should review it."
+"Yes, that is very common and usually not an issue. Send a simple bird's-eye-view sketch showing the house wall, the patio shape, and the full pop-out dimensions. If it is an L-shape, show whether the break is on the house side or the beam side."
+
+Good:
+"For a pop-out, show how far it comes out, how wide it is, and where it goes back in."
+
+Good:
+"If the beam side has the break, that usually means there are two different projections. It may need separate post runs, so a representative should review the sketch."
 
 Bad:
 "This requires a complex custom structural analysis."
 "The designer cannot do that."
 "Just enter it as a rectangle."
 "You definitely need two beams and two post rows."
+"Show all doors, windows, and every wall detail."
+"We will handle this as a custom quote."
 
 SAFE SUMMARY
 
 For pop-outs, chimneys, wall jogs, L-shapes, and tiered patios:
+These are common layout situations.
 A simple sketch and photos are the best next step.
 The 3D Designer may work for some layouts.
 A Patio Kits Direct representative should review the specific design.
