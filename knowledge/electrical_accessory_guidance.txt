@@ -39,17 +39,28 @@ This includes:
 Good answer:
 "Fans, lights, outlets, and switches are all possible, but they should be planned into the design so the right support, wiring path, and accessories are included."
 
+PKD sells lights, but does not sell the fans.
+
+Safe wording:
+"PKD sells the lights, but not the fans. If you want the current light specs, it is best to check with a representative because the exact light we carry can change."
+
+Do not say:
+"We sell fans."
+"We sell multiple light options" unless confirmed.
+Use singular wording like "the current light" or "the light PKD currently carries" because PKD usually sells one light type at a time.
+
 CEILING FANS
 
 If a customer wants a ceiling fan, make sure the support is planned before ordering.
 
 Good answer:
-"If you plan to add a ceiling fan, make sure that is included in the design so the correct fan beam or support can be planned. The wiring side can be handled by you or an electrician, depending on your comfort level and local code."
+"If you plan to add a ceiling fan, make sure that is included in the design so the correct fan beam or support can be planned. PKD does not sell the fan itself, but the cover can be planned for a fan. The wiring side can be handled by you or an electrician, depending on your comfort level and local code."
 
 Do not say:
 "You can just hang a fan anywhere."
 "Every panel automatically supports a fan."
 "An electrician must do it."
+"PKD sells the fan."
 
 LIGHTS
 
@@ -58,18 +69,118 @@ Patio Kits Direct currently sells dimmable lights, but do not promise that produ
 Safe wording:
 "Dimmable lights are nice because you do not have to worry as much about having too much light. You can always dim them down."
 
-If a customer asks how many lights they need:
-A general planning idea is to aim for about one row of lights for every 10 feet of patio length, but this is not a hard rule.
+If customer asks about the current light specs:
+"Check with a representative for the current light specs, because the exact light PKD carries can change."
+
+Do not invent:
+- wattage
+- lumens
+- color temperature
+- dimensions
+- voltage
+- brand
+- exact specs
+
+LIGHTING ROWS VS LIGHTS PER ROW
+
+Do not treat "one row of lights every 10 feet" as the whole answer.
+
+There are two separate ideas:
+
+1. Rows along the patio length.
+2. Number of lights in each row from front to back.
+
+A decent general starting point:
+For proper lighting, a row of lights about every 10 feet of patio length seems to work for most people, but it is not a hard rule.
+
+But aesthetics and symmetry matter too.
+Many customers like a fan centered in a bay/row, with lights arranged around it.
 
 Good answer:
-"A decent starting point is about one row of lights for every 10 feet of patio length, but it is not a hard rule. It depends on how bright you want it, the layout, furniture, fans, and whether the lights are dimmable."
+"For lighting only, a row about every 10 feet of length is a decent starting point. But for aesthetics, many people also plan around fans and symmetry, not just light output."
 
-Do not make the 10-foot rule sound exact.
-Do not promise a certain number of lights will be perfect.
-Lighting preference is subjective.
+LIGHTS PER ROW / PER BAY
+
+A single row or bay can commonly have:
+- 1 light
+- 2 lights
+- 3 lights
+- 2 lights and 1 fan
+
+A common fan layout:
+2 lights and 1 fan in a single row/bay, with the fan in the center and one light in front of the fan and one light behind the fan from front to back.
+
+This is not a hard rule. It depends on projection, furniture, fan placement, brightness preference, and what looks good.
+
+Projection guidance:
+- Small projection, around 8 feet or less: 1 light in a bay can be fine.
+- Smaller to moderate projection, around 11 or 12 feet or less: 2 lights per bay is common.
+- Larger projection, around 13 feet or more: 3 lights in a bay is totally normal.
+- If adding a fan, 2 lights plus 1 centered fan in that bay is common.
 
 Good answer:
-"If the lights are dimmable, having a little extra light is usually less of a problem because you can turn them down."
+"If the projection is around 8 feet or less, one light in a bay can be fine. Around 11 or 12 feet or less, two lights per bay is common. Around 13 feet or more, three lights in a bay is normal. If you are adding a fan, a common layout is the fan centered with one light in front and one light behind it."
+
+Do not make these hard rules.
+Use "common," "typical," "decent starting point," "many people," and "depends on what looks good."
+
+ROWS BY LENGTH / SYMMETRY
+
+For patio length:
+- One row may work for smaller lengths depending on layout.
+- Two rows may be enough for lighting on many covers around 20 feet, but it may not be the best-looking layout if a centered fan is desired.
+- Three rows are common for symmetry on many patios from about 18 feet to 35 feet.
+- At around 36 feet or longer, more rows can make sense, but it depends on layout and preference.
+
+Important:
+For a 20-foot patio, do not simply say "2 rows is a good starting point" without mentioning fan/symmetry.
+That is only half the story.
+
+Better answer for a 20-foot patio:
+"For lighting only, two rows can often work on a 20-foot cover. But for aesthetics, a lot of people like three rows so they can center a fan or keep the layout symmetrical. It depends on whether you care more about simple lighting or the overall look."
+
+Good answer for 18 to 35 foot lengths:
+"Three rows are pretty common in that 18 to 35 foot range because it often looks more balanced, especially if you want a fan centered in the layout."
+
+Good answer for 36 feet or longer:
+"Once you get into 36 feet or longer, more rows can make sense, but it really comes down to the layout, fan locations, and what looks good to you."
+
+LIGHTING EXAMPLE ANSWERS
+
+Customer:
+"How many lights for a 20 foot patio?"
+
+Good:
+"For lighting only, a row about every 10 feet of length usually works for most people, so two rows can be a decent starting point. But for aesthetics, many people would consider three rows on a 20-foot cover so the layout feels more balanced or so a fan can land nicely in the middle. Then the number of lights in each row depends more on the projection."
+
+Customer:
+"My cover is 12 by 20. How many lights?"
+
+Good:
+"Assuming 12 feet is the projection and 20 feet is the length, two or three rows could make sense along the 20-foot length. For the 12-foot projection, two lights per row is common, or two lights with a fan centered between them if you want a fan. If you care mostly about symmetry, three rows often looks better than two."
+
+Customer:
+"My cover is 8 by 16. How many lights?"
+
+Good:
+"With an 8-foot projection, one light per bay may be enough depending on how bright you want it. Along a 16-foot length, two rows could work, but the final layout depends on whether you want a fan and how symmetrical you want it to look."
+
+Customer:
+"My cover is 14 by 24 and I want fans."
+
+Good:
+"With a 14-foot projection, three lights in a bay is normal, or you could do a fan centered with lights in front and behind it. Along 24 feet of length, three rows is a common-looking layout for symmetry, but it depends on how many fans you want and where the furniture will be."
+
+DIMMABLE LIGHTS
+
+Dimmable lights make layout more forgiving.
+
+Good answer:
+"Dimmable lights are nice because if it ends up brighter than you need, you can always turn them down."
+
+Do not promise dimmable lights are always available forever.
+Better:
+"PKD currently sells dimmable lights, but check with a representative for the current light specs."
 
 OUTLETS AND SWITCHES
 
@@ -137,6 +248,7 @@ For insulated covers:
 - That can reduce awkward cuts.
 - It can make the build easier.
 - It can sometimes be better value.
+- It can also help with cleaner fan and light spacing because the fan beam and light raceway are tied to the 4-foot panel layout.
 
 For non-insulated covers:
 Do not apply the same 4-foot insulated panel logic automatically.
@@ -153,7 +265,7 @@ Good answer if customer asks "Can I wire the lights myself?":
 "Many customers do, but it depends on your comfort level and local code. The wiring should follow the product instructions, local electrical code, and any permit requirements. If you are unsure, an electrician is a good idea."
 
 Good answer if customer asks about adding a fan:
-"If you plan to add a ceiling fan, make sure it is included in the design so the correct fan beam or support can be planned. The wiring can be handled by you or an electrician depending on your comfort level and local code."
+"If you plan to add a ceiling fan, make sure it is included in the design so the correct fan beam or support can be planned. PKD does not sell the fan itself. The wiring can be handled by you or an electrician depending on your comfort level and local code."
 
 Good answer if customer asks about hiding wires:
 "Insulated covers can sometimes make it easier to hide wiring because of the raceway, but the exact setup depends on the panel layout and accessories. It is best to plan lights and fans before ordering."
@@ -167,6 +279,8 @@ Bad:
 "You can ignore local code."
 "You can put a fan anywhere."
 "Every light can go anywhere without planning."
+"PKD sells fans."
+"You can buy fans from PKD."
 
 Safe summary:
 "Electrical can be DIY for some customers, but it still needs to follow local code, product instructions, and any permit requirements. Fans, lights, outlets, and switches are possible, but they should be planned into the design."
