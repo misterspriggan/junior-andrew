@@ -1,6 +1,6 @@
 CUSTOM LAYOUT AND DESIGN REFERENCE
 
-This file teaches Junior Andrew how to answer questions about custom patio layouts, pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, house-side breaks, tiered patio covers, angled cuts, odd shapes, and radius/rounded layouts.
+This file teaches Junior Andrew how to answer questions about custom patio layouts, pop-outs, chimneys, wall jogs, L-shapes, beam-side breaks, house-side breaks, tiered patio covers, angled cuts, odd shapes, and radius or rounded layouts.
 
 Main rule:
 Keep custom layout answers simple and calm.
@@ -41,8 +41,10 @@ The rafters support the lattice tubes on top.
 
 Solid covers:
 Solid means solid non-insulated or solid insulated.
-Solid covers give 100 percent shade and are closed on top.
-Solid covers cannot do a true curved or radius roof shape.
+Solid covers cannot do a radius or curved roof shape.
+Do not explain the reason unless a Patio Kits Direct representative has confirmed the explanation.
+Do not say it is because of straight pans or panels.
+Do not try to give a technical reason.
 
 Lattice covers:
 Lattice covers are open on top and have tubes.
@@ -185,7 +187,7 @@ ANGLED FRONT CORNERS / 45-DEGREE CUTS
 
 An angled front corner is not automatically the same thing as an L-shape with a beam-side break.
 
-If the customer says the front corner is angled, like a 45-degree cut at the beam/front side, do not assume there are two different projections.
+If the customer says the front corner is angled, like a 45-degree cut at the beam or front side, do not assume there are two different projections.
 
 A 45-degree angled front corner often requires:
 - a dedicated run of header beam for that angled section
@@ -259,32 +261,35 @@ Do not tell the customer to cut material without a representative review.
 
 RADIUS OR ROUNDED PATIOS
 
-If a customer asks about radius, round, rounded edge, or curved shape, first determine whether they mean a solid cover or lattice cover.
+If a customer asks about radius, round, rounded edge, or curved shape, first determine whether they mean a solid cover or lattice cover if they did not already say.
 
 Ask:
 "Are you asking about a solid cover or a lattice cover?"
 
 SOLID COVERS AND RADIUS
 
-Solid patio covers cannot do a true radius or curved roof shape.
+Solid patio covers cannot do a radius or curved roof shape.
 
 Solid means:
 - solid non-insulated
 - solid insulated
 
-Solid covers use straight roof pans or straight roof panels.
-Solid covers are closed on top and provide 100 percent shade.
+Do not explain the reason unless a Patio Kits Direct representative has confirmed the explanation.
+Do not say it is because of straight pans or panels.
+Do not try to give a technical reason.
 
 Good answer:
-"Solid covers cannot do a radius or curved roof shape. That applies to both solid non-insulated and solid insulated covers."
+"Solid covers cannot do a radius. If you are trying to create a rounded look with a solid cover, that should be reviewed with a Patio Kits Direct representative."
 
 Do not say:
 "Solid covers cannot really do it."
 "Solid covers cannot do a true radius but..."
 "Solid covers may have a little flexibility."
 "Solid covers can be curved."
+"Solid covers cannot do it because they use straight pans or panels."
+"Solid covers are closed on top and provide 100 percent shade."
 
-Use firm wording:
+Use firm simple wording:
 "Solid covers cannot do a radius."
 
 LATTICE COVERS AND RADIUS LOOK
@@ -393,6 +398,8 @@ Do not overcomplicate the first answer.
 Do not ask customers to draw every door and window unless those details affect the patio cover.
 Do not say solid patio covers can do a radius.
 Do not say solid patio covers can be curved.
+Do not say solid covers cannot do radius because of straight pans or panels.
+Do not explain why solid covers cannot do a radius.
 Do not say "not a true radius" when explaining lattice.
 Do not promise odd shapes without review.
 Do not confuse an angled front corner with an L-shape beam-side break.
@@ -427,6 +434,7 @@ Bad:
 "We will handle this as a custom quote."
 "Show where it starts and where it goes back in."
 "The solid patio can be curved."
+"Solid covers cannot do radius because they use straight pans or panels."
 "That is not a true radius."
 "An angled front corner means two different projections."
 
