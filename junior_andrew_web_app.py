@@ -56,7 +56,7 @@ KNOWLEDGE_FILES = [
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")
 
 st.title("Junior Andrew")
-st.caption("Private cloud test for Patio Kits Direct")
+st.caption("Junior Andrew v1.0 Beta — Patio Kits Direct")
 
 
 def load_knowledge() -> str:
@@ -78,22 +78,36 @@ def get_pacific_time_context() -> str:
     now = datetime.now(ZoneInfo("America/Los_Angeles"))
     weekday = now.weekday()
     hour = now.hour
-    minute = now.minute
 
-    is_weekday = weekday < 5
-    is_open = is_weekday and (8 <= hour < 17)
+    general_open = weekday < 5 and (8 <= hour < 17)
 
-    open_status = "OPEN" if is_open else "CLOSED"
+    # Build support:
+    # Tuesday-Friday 8am-5pm Pacific, Saturday 10am-2pm Pacific.
+    build_open = False
+    if 1 <= weekday <= 4 and (8 <= hour < 17):
+        build_open = True
+    if weekday == 5 and (10 <= hour < 14):
+        build_open = True
+
+    general_status = "OPEN" if general_open else "CLOSED"
+    build_status = "OPEN" if build_open else "CLOSED"
 
     return (
         f"Current Patio Kits Direct reference time: "
         f"{now.strftime('%A, %B %d, %Y at %-I:%M %p Pacific Time')}.\n"
-        f"Patio Kits Direct normal office hours: Monday through Friday, "
+        f"Patio Kits Direct general office hours: Monday through Friday, "
         f"8am to 5pm Pacific Time.\n"
-        f"Current office status based on Pacific Time: {open_status}.\n"
+        f"Build support hours: Tuesday through Friday, 8am to 5pm Pacific Time, "
+        f"and Saturday, 10am to 2pm Pacific Time.\n"
+        f"Current general office status based on Pacific Time: {general_status}.\n"
+        f"Current build support status based on Pacific Time: {build_status}.\n"
         f"If a customer asks an urgent project-specific engineering, delivery, quote, "
-        f"warranty, order, or build support question while closed, give general guidance only "
-        f"and tell them to confirm with a Patio Kits Direct representative when the office reopens."
+        f"warranty, order, or payment question while general office support is closed, "
+        f"give general guidance only and tell them to confirm with a Patio Kits Direct "
+        f"representative when general office support reopens.\n"
+        f"If a customer asks a project-specific build or installation question while build "
+        f"support is closed, give general guidance only and tell them build support should "
+        f"confirm anything project-specific when they reopen."
     )
 
 
@@ -155,6 +169,12 @@ def make_spoken_version(text: str) -> str:
     # Company pronunciation helper.
     spoken = re.sub(r"\bfascias\b", "fayshas", spoken, flags=re.IGNORECASE)
     spoken = re.sub(r"\bfascia\b", "faysha", spoken, flags=re.IGNORECASE)
+
+    # Make company hours sound cleaner.
+    spoken = spoken.replace("8am", "8 A M")
+    spoken = spoken.replace("5pm", "5 P M")
+    spoken = spoken.replace("10am", "10 A M")
+    spoken = spoken.replace("2pm", "2 P M")
 
     # Make dimensions sound natural.
     spoken = re.sub(r"\b(\d+)\s*[xX]\s*(\d+)\b", r"\1 by \2", spoken)
@@ -222,6 +242,31 @@ def generate_voice_audio(text: str) -> bytes:
     return response.content
 
 
+def show_assistant_message(content: str, index: int):
+    """
+    Voice-first display:
+    Show audio first if available.
+    Hide written answer under an expander so testers listen instead of reading first.
+    """
+    if index in st.session_state.audio_cache:
+        st.audio(st.session_state.audio_cache[index], format="audio/mp3")
+
+    if st.button("🔊 Play Voice", key=f"voice_{index}"):
+        if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
+            st.warning("Voice is not configured yet.")
+        else:
+            with st.spinner("Generating voice..."):
+                try:
+                    audio_bytes = generate_voice_audio(content)
+                    st.session_state.audio_cache[index] = audio_bytes
+                    st.audio(audio_bytes, format="audio/mp3", autoplay=True)
+                except Exception as e:
+                    st.error(str(e))
+
+    with st.expander("Show written answer"):
+        st.markdown(content)
+
+
 knowledge_text = load_knowledge()
 time_context = get_pacific_time_context()
 
@@ -258,11 +303,13 @@ Use "Patio Kits Direct" first.
 After that, "PKD" is okay as shorthand.
 Do not overuse PKD. After a couple uses, say Patio Kits Direct again as a refresher.
 
-After-hours behavior:
-Patio Kits Direct general office hours are Monday through Friday, 8am to 5pm Pacific Time. Build support hours are Tuesday through Friday, 8am to 5pm Pacific Time, and Saturday, 10am to 2pm Pacific Time.
-If the office is currently closed and the customer asks about project-specific engineering, quotes, delivery, pickup, warranty, order status, damage claims, missing parts, or build support, give only general guidance and say they should confirm with a representative when Patio Kits Direct reopens.
-Do not pretend a live representative is available after hours.
-Do not say "we are open" unless the current office status says OPEN.
+Hours behavior:
+Patio Kits Direct general office hours are Monday through Friday, 8am to 5pm Pacific Time.
+Build support hours are Tuesday through Friday, 8am to 5pm Pacific Time, and Saturday, 10am to 2pm Pacific Time.
+If the customer asks about sales, quotes, ordering, payment, delivery, pickup, warranty, or general customer service, use general office hours.
+If the customer asks about installation, missing build details, construction questions, or help during the build, use build support hours.
+If the relevant team is closed, give general guidance only and tell them to confirm with that team when they reopen.
+Do not pretend a live representative is available if that team is closed.
 If discussing business hours, say they are Pacific Time.
 
 Critical wording rules:
@@ -371,12 +418,14 @@ with st.sidebar:
         st.session_state.audio_cache = {}
         st.rerun()
 
-    auto_voice = st.checkbox("Auto-play voice", value=True)
+    auto_voice = st.checkbox("Generate voice first", value=True)
 
     st.write("Model: `gpt-5.5`")
+    st.write("Version: `Junior Andrew v1.0 Beta`")
     st.write("PKD time status:")
     st.write(time_context.splitlines()[0])
-    st.write(time_context.splitlines()[2])
+    st.write(time_context.splitlines()[3])
+    st.write(time_context.splitlines()[4])
 
     st.write("Knowledge files loaded:")
 
@@ -407,23 +456,10 @@ if not OPENAI_API_KEY:
 
 for index, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
-        st.markdown(msg["content"])
-
         if msg["role"] == "assistant":
-            if index in st.session_state.audio_cache:
-                st.audio(st.session_state.audio_cache[index], format="audio/mp3")
-
-            if st.button("🔊 Play Voice", key=f"voice_{index}"):
-                if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
-                    st.warning("Voice is not configured yet.")
-                else:
-                    with st.spinner("Generating voice..."):
-                        try:
-                            audio_bytes = generate_voice_audio(msg["content"])
-                            st.session_state.audio_cache[index] = audio_bytes
-                            st.audio(audio_bytes, format="audio/mp3", autoplay=True)
-                        except Exception as e:
-                            st.error(str(e))
+            show_assistant_message(msg["content"], index)
+        else:
+            st.markdown(msg["content"])
 
 user_message = st.chat_input("Type a customer message...")
 
@@ -443,8 +479,6 @@ if user_message:
 
             assistant_message = clean_visible_text(response.output_text)
 
-        st.markdown(assistant_message)
-
         st.session_state.messages.append(
             {"role": "assistant", "content": assistant_message}
         )
@@ -452,25 +486,23 @@ if user_message:
         assistant_index = len(st.session_state.messages) - 1
 
         if auto_voice and ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID:
-            with st.spinner("Generating voice..."):
+            with st.spinner("Generating Junior Andrew's voice..."):
                 try:
                     audio_bytes = generate_voice_audio(assistant_message)
                     st.session_state.audio_cache[assistant_index] = audio_bytes
+
+                    # Audio appears before the written answer.
                     st.audio(audio_bytes, format="audio/mp3", autoplay=True)
+
+                    with st.expander("Show written answer"):
+                        st.markdown(assistant_message)
+
                 except Exception as e:
                     st.error(str(e))
+                    st.markdown(assistant_message)
 
-        elif not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
-            st.warning("Voice is not configured yet.")
-
-        if st.button("🔊 Play Voice", key=f"voice_new_{assistant_index}"):
+        else:
             if not ELEVENLABS_API_KEY or not ELEVENLABS_VOICE_ID:
                 st.warning("Voice is not configured yet.")
-            else:
-                with st.spinner("Generating voice..."):
-                    try:
-                        audio_bytes = generate_voice_audio(assistant_message)
-                        st.session_state.audio_cache[assistant_index] = audio_bytes
-                        st.audio(audio_bytes, format="audio/mp3", autoplay=True)
-                    except Exception as e:
-                        st.error(str(e))
+
+            st.markdown(assistant_message)
