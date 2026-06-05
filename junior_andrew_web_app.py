@@ -52,6 +52,7 @@ KNOWLEDGE_FILES = [
     BASE_DIR / "knowledge" / "custom_layout_design_reference.txt",
     BASE_DIR / "knowledge" / "support_hours_reference.txt",
     BASE_DIR / "knowledge" / "intro_and_voice_safe_phrasing.txt",
+    BASE_DIR / "knowledge" / "insulated_non_insulated_answer_override.txt",
 ]
 
 st.set_page_config(page_title="Junior Andrew", page_icon="🏠")

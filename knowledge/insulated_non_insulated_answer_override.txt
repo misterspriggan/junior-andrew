@@ -1,0 +1,135 @@
+INSULATED VS NON-INSULATED ANSWER OVERRIDE
+
+This file has highest priority for answering insulated vs non-insulated comparison questions.
+
+When a customer asks:
+- What is the difference between insulated and non-insulated?
+- Should I get insulated or non-insulated?
+- Is insulated better?
+- What are the benefits of insulated?
+- What is the most popular patio cover?
+
+Keep the first answer short and do not over-explain.
+
+BEST DEFAULT ANSWER
+
+"Non-insulated is our most popular option and takes care of the vast majority of customer needs. Insulated can make more sense for certain applications, like impact protection, maintenance access on top, or planning to enclose the cover later. It is not really better versus worse. It comes down to what you need the cover to do. Do you want me to expand on any of those differences?"
+
+IMPORTANT:
+This should be the default answer style.
+
+DO NOT LEAD WITH THESE DETAILS
+
+Do not include these in the first answer unless the customer specifically asks:
+- solid aluminum roof pans
+- clean solid roof
+- clean-looking cover
+- hiding electrical
+- rain noise
+- roof panel construction details
+- roof pan construction details
+- thicker panels
+- raceway
+- electrical inside the roof system
+
+These details are backup information only.
+
+NON-INSULATED WORDING
+
+Say:
+"Non-insulated is our most popular option and takes care of the vast majority of customer needs."
+
+Good:
+"Non-insulated is our most popular option because it handles what most customers need."
+
+Avoid:
+"A non-insulated cover uses solid aluminum roof pans."
+"Non-insulated is for a clean solid roof."
+"Non-insulated is basic."
+"Non-insulated is the cheaper option."
+
+INSULATED WORDING
+
+Say:
+"Insulated can make more sense for certain applications."
+
+The first three examples should usually be:
+- impact protection
+- maintenance access on top
+- planning to enclose the cover later
+
+Good:
+"Insulated can make more sense for certain applications, like impact protection, maintenance access on top, or planning to enclose the cover later."
+
+Avoid leading with:
+- hiding electrical
+- rain noise
+- thicker roof panels
+- panel construction
+
+EXPAND ONLY IF ASKED
+
+If the customer asks for more detail, then explain the item they ask about.
+
+If they ask:
+"What do you mean by impact protection?"
+
+Then say:
+"By impact protection, I mean things like roof-damaging hail or golf balls, where insulated can make more sense. It is not indestructible, but it is better suited for that kind of concern than non-insulated."
+
+If they ask:
+"What do you mean by maintenance access?"
+
+Then say:
+"Insulated can make more sense if you need to get on top for certain maintenance, but it is not meant to be used as a deck."
+
+If they ask:
+"What do you mean by enclosing later?"
+
+Then say:
+"If you plan to fully enclose it later, insulated can start to make more sense. Are you thinking screens, windows and doors, or more of a temperature-controlled room?"
+
+RAIN NOISE
+
+Do not lead with rain noise.
+
+Only mention rain noise if the customer asks about it or asks for more differences.
+
+Good:
+"Rain noise can be a difference, but I usually would not make that the main deciding factor unless you are in a very rainy area or especially sensitive to the sound."
+
+HIDING ELECTRICAL
+
+Do not lead with hiding electrical.
+
+Only mention it if the customer asks about lights, fans, wiring, or electrical.
+
+Good:
+"Insulated covers can sometimes make electrical planning cleaner because of the raceway, but that should be planned before ordering."
+
+BAD DEFAULT ANSWERS
+
+Bad:
+"Non-insulated is a solid patio cover that works well when you mainly want a durable, clean-looking cover."
+
+Bad:
+"Insulated can make more sense for impact protection, maintenance access, hiding electrical, rain noise, and enclosing later."
+
+Bad:
+"A non-insulated cover uses solid aluminum roof pans."
+
+Bad:
+"Insulated is better."
+
+Bad:
+"Non-insulated is basic."
+
+SHORT VOICE-FIRST RULE
+
+For the first answer, keep it to about 4 or 5 sentences.
+
+The goal is:
+- answer the question
+- give the top decision points
+- avoid dumping every detail
+- ask if they want more detail
